@@ -1,0 +1,154 @@
+<manifest alg="2" build="2017.0.2.363" opt="true" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" ftp_hostname="ftp://ftp.aqcez.com.br" ftp_rootfolder="/public_html/desbravadornota10.com.br" exportTarget="FTP" domain="www.desbravadornota10.com.br" resolutions="1x" timestamp="1503594512983">
+  <folder name="css">
+    <file name="site_global.css" crc="443350757"/>
+    <file name="master_a-mestre.css" crc="3865827060" ref="index"/>
+    <file name="nomq_preview_master_a-mestre.css" crc="3824530138" ref="index"/>
+    <file name="index.css" crc="3935998333" ref="index"/>
+    <file name="nomq_index.css" crc="446851717" ref="index"/>
+  </folder>
+  <folder name="scripts">
+    <file name="jquery-1.8.3.min.js" crc="209076791" ref="index"/>
+    <file name="museutils.js" crc="4232573551" ref="index"/>
+    <file name="whatinput.js" crc="86476730" ref="index"/>
+    <file name="museconfig.js" crc="4152223963" ref="index"/>
+    <file name="jquery.musepolyfill.bgsize.js" crc="3880853905" ref="index"/>
+    <file name="jquery.watch.js" crc="3844535323" ref="index"/>
+    <file name="webpro.js" crc="3770351119" ref="index"/>
+    <file name="musewpslideshow.js" crc="4244742588" ref="index"/>
+    <file name="jquery.museoverlay.js" crc="432750910" ref="index"/>
+    <file name="touchswipe.js" crc="3912873526" ref="index"/>
+    <file name="form_check.php" crc="3841221102" ref="index"/>
+    <file name="form_throttle.php" crc="4048049783" ref="index"/>
+    <file name="form_process.php" crc="3899230280" ref="index"/>
+    <file name="form-u2998.php" crc="453329332" ref="index"/>
+    <file name="jquery.museresponsive.js" crc="433634197" ref="index"/>
+    <file name="require.js" crc="4234670167" ref="index"/>
+  </folder>
+  <folder name="images">
+    <file name="fundo_branco-u2398-fr.png" crc="260227625" ref="index"/>
+    <file name="fundo_cinza-u2403-fr.png" crc="66097139" ref="index"/>
+    <file name="fundo_vermelho-u2404-fr.png" crc="480085638" ref="index"/>
+    <file name="fundo_verde-u2399-fr.png" crc="4143329514" ref="index"/>
+    <file name="fundo_roxo-u2405-fr.png" crc="3807474420" ref="index"/>
+    <file name="fundo_rosa-u2401-fr.png" crc="392918470" ref="index"/>
+    <file name="fundo_laranja-u2400-fr.png" crc="506418413" ref="index"/>
+    <file name="fundo_amarelo-u2406-fr.png" crc="4080044449" ref="index"/>
+    <file name="borda_branco-u2433-fr.png" crc="4207321270" ref="index"/>
+    <file name="borda_cinza_claro-u2443-fr.png" crc="63735493" ref="index"/>
+    <file name="borda_cinza-u2429-fr.png" crc="4177654416" ref="index"/>
+    <file name="borda_azul-u2440-fr.png" crc="443532831" ref="index"/>
+    <file name="borda_vermelho_claro-u2438-fr.png" crc="4292629177" ref="index"/>
+    <file name="borda_vermelho-u2434-fr.png" crc="3931834811" ref="index"/>
+    <file name="borda_verde_claro-u2435-fr.png" crc="3802882978" ref="index"/>
+    <file name="borda_verde-u2442-fr.png" crc="468656860" ref="index"/>
+    <file name="borda_roxo-u2439-fr.png" crc="115588570" ref="index"/>
+    <file name="borda_rosa-u2431-fr.png" crc="4162423970" ref="index"/>
+    <file name="borda_laranja-u2430-fr.png" crc="4121402885" ref="index"/>
+    <file name="borda_amarelo_claro-u2436-fr.png" crc="4000904428" ref="index"/>
+    <file name="borda_amarelo-u2437-fr.png" crc="3985396828" ref="index"/>
+    <file name="grade_cinza_claro-u2456-fr.png" crc="443935836" ref="index"/>
+    <file name="grade_cinza-u2452-fr.png" crc="343418569" ref="index"/>
+    <file name="grade_azul_claro-u2462-fr.png" crc="373670412" ref="index"/>
+    <file name="grade_azul-u2453-fr.png" crc="282025952" ref="index"/>
+    <file name="grade_vermelho_claro-u2451-fr.png" crc="190854958" ref="index"/>
+    <file name="grade_vermelho-u2449-fr.png" crc="4233417922" ref="index"/>
+    <file name="grade_verde_claro-u2458-fr.png" crc="4050304065" ref="index"/>
+    <file name="grade_verde-u2457-fr.png" crc="4177079719" ref="index"/>
+    <file name="grade_roxo-u2460-fr.png" crc="273835837" ref="index"/>
+    <file name="grade_rosa-u2461-fr.png" crc="3776155327" ref="index"/>
+    <file name="grade_laranja-u2450-fr.png" crc="4051285298" ref="index"/>
+    <file name="grade_amarelo_claro-u2455-fr.png" crc="371616526" ref="index"/>
+    <file name="grade_amarelo-u2459-fr.png" crc="4102009494" ref="index"/>
+    <file name="espada_branco-u2520-fr.png" crc="174099036" ref="index"/>
+    <file name="espada_cinza_claro-u2513-fr.png" crc="271939790" ref="index"/>
+    <file name="espada_cinza-u2522-fr.png" crc="99204510" ref="index"/>
+    <file name="espada_azul-u2521-fr.png" crc="334946955" ref="index"/>
+    <file name="espada_vermelho_claro-u2514-fr.png" crc="4059172799" ref="index"/>
+    <file name="espada_vermelho-u2517-fr.png" crc="307605181" ref="index"/>
+    <file name="espada_verde_claro-u2515-fr.png" crc="322891610" ref="index"/>
+    <file name="espada_verde-u2511-fr.png" crc="3823581071" ref="index"/>
+    <file name="espada_roxo-u2519-fr.png" crc="3812902544" ref="index"/>
+    <file name="espada_rosa-u2512-fr.png" crc="383369717" ref="index"/>
+    <file name="espada_laranja-u2523-fr.png" crc="480028516" ref="index"/>
+    <file name="espada_amarelo_claro-u2510-fr.png" crc="15735162" ref="index"/>
+    <file name="espada_amarelo-u2516-fr.png" crc="3910215940" ref="index"/>
+    <file name="fundo_azul-u2397-fr.png" crc="4057656783" ref="index"/>
+    <file name="fundo_preto-u2402-fr.png" crc="491982138" ref="index"/>
+    <file name="borda_azul_claro-u2432-fr.png" crc="4067998546" ref="index"/>
+    <file name="borda_preto-u2441-fr.png" crc="211858501" ref="index"/>
+    <file name="grade_branco-u2448-fr.png" crc="184949112" ref="index"/>
+    <file name="grade_preto-u2454-fr.png" crc="4134307731" ref="index"/>
+    <file name="espada_azul_claro-u2509-fr.png" crc="4231288766" ref="index"/>
+    <file name="espada_preto-u2518-fr.png" crc="102863293" ref="index"/>
+    <file name="social3_04.png" crc="36851366" ref="index">
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="logo-crop-u7478.png" crc="4085667905" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="imagem colada 256x256-crop-u7482.png" crc="3993281577" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="imagem colada 512x512.png" crc="450501514" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="logo-crop-u74782.png" crc="4085667905" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="imagem colada 256x256-crop-u74822.png" crc="3993281577" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="logo-crop-u74783.png" crc="4085667905" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="imagem colada 256x256-crop-u74823.png" crc="3993281577" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="social3_04-u7474-fr.png" crc="47686965" ref="index"/>
+    <file name="logo-crop-u74784.png" crc="4049556450" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="imagem colada 256x256-crop-u74824.png" crc="3993281577" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="social3_04-u7474-fr2.png" crc="4034403507" ref="index"/>
+    <file name="logo-crop-u74785.png" crc="326808871" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="imagem colada 256x256-crop-u74825.png" crc="3993281577" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="blank.gif" crc="4208392903" ref="index"/>
+  </folder>
+  <file name="index.html" crc="3912304367" seo="true" mt="1503594472548" redirect="true"/>
+  <site>
+    <paragraphStyle className="normal_text" uid="U49"/>
+    <nestedListStyle className="nls-None" uid="U52"/>
+  </site>
+  <renditions>
+    <rendition device="desktop">
+      <page name="Início" filename="index.html" muse_href="page:U93" master="U72">
+        <breakpoint uid="U8485" maxwidth="320" minwidth="0" squishy="true"/>
+        <breakpoint uid="U8269" maxwidth="480" minwidth="321" squishy="true"/>
+        <breakpoint uid="U7837" maxwidth="768" minwidth="481" squishy="true"/>
+        <breakpoint uid="U7621" maxwidth="960" minwidth="769" squishy="true"/>
+        <breakpoint uid="U590" maxwidth="1280" minwidth="961" squishy="true"/>
+      </page>
+      <masterPage name="A-mestre" master="U62" uid="U72">
+        <breakpoint uid="U4591" maxwidth="320" minwidth="0" squishy="true"/>
+        <breakpoint uid="U4576" maxwidth="480" minwidth="321" squishy="true"/>
+        <breakpoint uid="U4561" maxwidth="768" minwidth="481" squishy="true"/>
+        <breakpoint uid="U73" maxwidth="960" minwidth="769" squishy="true"/>
+        <breakpoint uid="U1207" maxwidth="1280" minwidth="961" squishy="true"/>
+      </masterPage>
+      <masterPage name="None" master="null" uid="U62">
+        <breakpoint uid="U63" maxwidth="960" minwidth="0" squishy="true"/>
+      </masterPage>
+    </rendition>
+  </renditions>
+</manifest>
