@@ -72,6 +72,12 @@ $app->post('/adicionar/arganel', function (Request $request, Response $response)
 
 });
 
+$app->get('/quantItens', function(Request $request, Response $response){
+    $carrinho = new CarrinhoCompras();
+    $resultado = $carrinho->quantidadeItens();
+    echo $resultado;
+});
+
 
 $app->post('/finalizar/pagar', function (Request $request, Response $response){
     $todosPedidos = new CarrinhoCompras();
@@ -79,8 +85,10 @@ $app->post('/finalizar/pagar', function (Request $request, Response $response){
     echo $resultado;
 });
 
-
-
+$app->get('/pegarCarrinho', function(Request $request, Response $response){
+    $pegarCarrinho = new CarrinhoCompras();
+    
+});
 
 
 $app->run();

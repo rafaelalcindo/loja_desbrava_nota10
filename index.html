@@ -41,7 +41,15 @@ if(typeof Muse == "undefined") window.Muse = {}; window.Muse.assets = {"required
     <script type="text/javascript">
     (function(){function $MPC_load(){window.$MPC_loaded !== true && (function(){var s = document.createElement("script");s.type = "text/javascript";s.async = true;s.src = document.location.protocol+"//secure.mlstatic.com/mptools/render.js";var x = document.getElementsByTagName('script')[0];x.parentNode.insertBefore(s, x);window.$MPC_loaded = true;})();}window.$MPC_loaded !== true ? (window.attachEvent ?window.attachEvent('onload', $MPC_load) : window.addEventListener('load', $MPC_load, false)) : null;})();
     </script>
+    <link rel="stylesheet" href="/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/css/bootstrap-grid.min.css">
+    <link rel="stylesheet" href="/css/bootstrap-reboot.min.css">
+    <script type="text/javascript" src="js/bootstrap.min.js" ></script>
+
+
     <script type="text/javascript" src="js/script_arganel/arganel_perso.js"></script>
+    <script type="text/javascript" src="js/script_geral/contaQuantidade.js" ></script>
+
 
   <script type="text/javascript">    window.smartlook||(function(d) {    var o=smartlook=function(){ o.api.push(arguments)},h=d.getElementsByTagName('head')[0];    var c=d.createElement('script');o.api=new Array();c.async=true;c.type='text/javascript';    c.charset='utf-8';c.src='https://rec.smartlook.com/recorder.js';h.appendChild(c);    })(document);    smartlook('init', 'ef7688eadbe6510fddf377235f7b345bbe880481');</script>
  </head>
@@ -437,7 +445,11 @@ if(typeof Muse == "undefined") window.Muse = {}; window.Muse.assets = {"required
      </div>
      <a class="nonblock nontext clearfix shared_content" id="u10673-4" href="carrinho.html" data-href="page:U9668" data-IBE-flags="txtStyleSrc" data-content-guid="u10673-4_content"><!-- content --><p><span id="u10673">Ir para o Carrinho</span></p></a>
     </div>
-    <div class="verticalspacer" data-offset-top="1459" data-content-above-spacer="1459" data-content-below-spacer="56"></div>
+    <div class="verticalspacer" data-offset-top="1459" data-content-above-spacer="1459" data-content-below-spacer="56">
+      <input type="number" id="quant_arganel" class="quant_arganel" value="" />
+      <br/>
+      <button id="addPersoArgPedido" class="addPersoArgPedido" >Adicionar no carrinho</button>
+    </div>
     <div class="browser_width grpelem shared_content" id="u2325-bw" data-content-guid="u2325-bw_content">
      <div id="u2325"><!-- group -->
       <div class="clearfix" id="u2325_align_to_page">

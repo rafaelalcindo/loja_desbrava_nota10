@@ -87,6 +87,19 @@
       }
     }
 
+    public function quantidadeItens(){
+      if(isset($_COOKIE['meus_produtos'])){
+        $meu_array = isset($_COOKIE['meus_produtos'])? $_COOKIE['meus_produtos'] : "";
+        $meu_array = unserialize($meu_array);
+        //echo "array: ".print_r($meu_array)."<br/><br/>";
+        //echo "<br/>Size of array: ".sizeof($meu_array);
+        $tamanho_array = sizeof($meu_array);
+        return $tamanho_array;
+      }else{
+        return '0';
+      }
+    }
+
 
 
   }
