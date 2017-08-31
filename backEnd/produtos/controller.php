@@ -86,8 +86,13 @@ $app->post('/finalizar/pagar', function (Request $request, Response $response){
 });
 
 $app->get('/pegarCarrinho', function(Request $request, Response $response){
+
     $pegarCarrinho = new CarrinhoCompras();
-    
+    $resultado = $pegarCarrinho->montarCestaTotal();
+    foreach ($resultado as $value) {
+        echo $value;
+    }
+
 });
 
 

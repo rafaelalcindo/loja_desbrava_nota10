@@ -1,6 +1,7 @@
 <?php
 
   require_once "lib/mercadopago.php";
+  require_once "carrinhoCesta/cestaCarrinho.php";
 
   class CarrinhoCompras
   {
@@ -87,6 +88,8 @@
       }
     }
 
+
+  //  ====================== Quantidade de Itens =====================
     public function quantidadeItens(){
       if(isset($_COOKIE['meus_produtos'])){
         $meu_array = isset($_COOKIE['meus_produtos'])? $_COOKIE['meus_produtos'] : "";
@@ -100,9 +103,37 @@
       }
     }
 
+    public function montarCestaTotal(){
+
+      if(isset($_COOKIE['meus_produtos'])){
+        $meu_array = isset($_COOKIE['meus_produtos'])? $_COOKIE['meus_produtos'] : "";
+        $meu_array = unserialize($meu_array);
+
+        $cestaMontada = montarCesta($meu_array);        
+        return $cestaMontada;
+
+      }
+
+    }
+
 
 
   }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  //======================================= ADICONAR COOKIES ==================================
 
   function AddCookie($array_produto){
 

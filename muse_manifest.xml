@@ -1,14 +1,15 @@
-<manifest alg="2" build="2017.0.2.363" opt="true" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" ftp_hostname="ftp://ftp.aqcez.com.br" ftp_rootfolder="/public_html/desbravadornota10.com.br/teste" exportTarget="FTP" domain="www.desbravadornota10.com.br/teste" resolutions="1x" timestamp="1504102815501">
+<manifest alg="2" build="2017.0.2.363" opt="true" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" ftp_hostname="ftp://ftp.aqcez.com.br" ftp_rootfolder="/public_html/desbravadornota10.com.br/teste" exportTarget="FTP" domain="www.desbravadornota10.com.br/teste" resolutions="1x" timestamp="1504203875980">
   <folder name="css">
     <file name="site_global.css" crc="443350757"/>
-    <file name="master_a-mestre.css" crc="501151677" ref="clientes:carrinho:index"/>
+    <file name="master_a-mestre.css" crc="4029813451" ref="clientes:carrinho:index"/>
     <file name="nomq_preview_master_a-mestre.css" crc="3980135006" ref="clientes:carrinho:index"/>
-    <file name="clientes.css" crc="4021591899" ref="clientes"/>
-    <file name="nomq_clientes.css" crc="204411728" ref="clientes"/>
-    <file name="carrinho.css" crc="4208880684" ref="carrinho"/>
-    <file name="nomq_carrinho.css" crc="135491488" ref="carrinho"/>
-    <file name="index.css" crc="3962709505" ref="index"/>
-    <file name="nomq_index.css" crc="3811014763" ref="index"/>
+    <file name="clientes.css" crc="4067117116" ref="clientes"/>
+    <file name="nomq_clientes.css" crc="366041851" ref="clientes"/>
+    <file name="carrinho.css" crc="183895137" ref="carrinho"/>
+    <file name="nomq_carrinho.css" crc="217259816" ref="carrinho"/>
+    <file name="index.css" crc="156137007" ref="index"/>
+    <file name="nomq_index.css" crc="3953877023" ref="index"/>
+    <file name="iefonts_carrinho.css" crc="3824530138" ref="carrinho"/>
   </folder>
   <folder name="scripts">
     <file name="jquery-1.8.3.min.js" crc="209076791" ref="index:clientes:carrinho"/>
@@ -16,7 +17,7 @@
     <file name="whatinput.js" crc="86476730" ref="index:clientes:carrinho"/>
     <file name="museconfig.js" crc="4152223963" ref="index:clientes:carrinho"/>
     <file name="jquery.watch.js" crc="3844535323" ref="index:clientes:carrinho"/>
-    <file name="jquery.musepolyfill.bgsize.js" crc="3880853905" ref="index:clientes"/>
+    <file name="jquery.musepolyfill.bgsize.js" crc="3880853905" ref="index:clientes:carrinho"/>
     <file name="webpro.js" crc="3770351119" ref="index:clientes:carrinho"/>
     <file name="musewpslideshow.js" crc="4244742588" ref="index:clientes:carrinho"/>
     <file name="jquery.museoverlay.js" crc="432750910" ref="index:clientes:carrinho"/>
@@ -45,13 +46,18 @@
       <caption webpage="index" alt=""/>
       <caption webpage="index" alt=""/>
     </file>
-    <file name="logo.png" crc="3954312489" ref="index:clientes">
+    <file name="logo.png" crc="3954312489" ref="index:clientes:carrinho">
       <caption webpage="index" alt=""/>
       <caption webpage="index" alt=""/>
       <caption webpage="index" alt=""/>
       <caption webpage="index" alt=""/>
       <caption webpage="index" alt=""/>
       <caption webpage="index" alt=""/>
+      <caption webpage="carrinho" alt=""/>
+      <caption webpage="carrinho" alt=""/>
+      <caption webpage="carrinho" alt=""/>
+      <caption webpage="carrinho" alt=""/>
+      <caption webpage="carrinho" alt=""/>
       <caption webpage="clientes" alt=""/>
     </file>
     <file name="fundo-branco.svg" crc="514499231" ref="index"/>
@@ -176,8 +182,8 @@
     <file name="espada_amarelo_claro-u2510-fr.png" crc="15735162" ref="index"/>
     <file name="espada-amarela.svg" crc="173839490" ref="index"/>
     <file name="espada-amarela_poster_u8813.png" crc="3893664781" ref="index"/>
-    <file name="shopping-cart.svg" crc="114638831" ref="index:clientes"/>
-    <file name="shopping-cart_poster_u10658.png" crc="292345442" ref="index:clientes"/>
+    <file name="shopping-cart.svg" crc="114638831" ref="index:clientes:carrinho"/>
+    <file name="shopping-cart_poster_u10658.png" crc="292345442" ref="index:clientes:carrinho"/>
     <file name="menu-alt-256.png" crc="191789486" seo="true" ref="index:clientes:carrinho">
       <caption webpage="index" alt=""/>
       <caption webpage="index" alt=""/>
@@ -299,10 +305,17 @@
       <caption webpage="clientes" alt=""/>
       <caption webpage="clientes" alt=""/>
     </file>
+    <file name="aclmelma.png" crc="287203478" ref="carrinho">
+      <caption webpage="carrinho" alt=""/>
+      <caption webpage="carrinho" alt=""/>
+    </file>
+    <file name="aclmelma-u12780-fr.jpg" crc="3912738342" ref="carrinho"/>
+    <file name="aclmelma-u12780-fr2.jpg" crc="339781765" ref="carrinho"/>
+    <file name="aclmelma-u12780-fr3.jpg" crc="4136013475" ref="carrinho"/>
   </folder>
-  <file name="index.html" crc="333438064" seo="true" mt="1504102699786" redirect="true"/>
-  <file name="clientes.html" crc="16108080" seo="true" mt="1504102367640" redirect="true"/>
-  <file name="carrinho.html" crc="4055905576" seo="true" mt="1504102367640" redirect="true"/>
+  <file name="index.html" crc="4058250175" seo="true" mt="1504189323126" redirect="true"/>
+  <file name="clientes.html" crc="153229835" seo="true" mt="1504189323126" redirect="true"/>
+  <file name="carrinho.html" crc="3947549462" seo="true" mt="1504203780007" redirect="true"/>
   <site>
     <paragraphStyle className="normal_text" uid="U49"/>
     <nestedListStyle className="nls-None" uid="U52"/>
