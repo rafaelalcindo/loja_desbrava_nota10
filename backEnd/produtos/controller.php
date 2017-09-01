@@ -89,9 +89,31 @@ $app->get('/pegarCarrinho', function(Request $request, Response $response){
 
     $pegarCarrinho = new CarrinhoCompras();
     $resultado = $pegarCarrinho->montarCestaTotal();
-    foreach ($resultado as $value) {
-        echo $value;
-    }
+
+    if(is_array($resultado)){
+      foreach ($resultado as $value) {
+          echo $value;
+      }
+    }else{ echo ""; }
+
+
+});
+
+$app->get('/pegarCarrinho/Total', function(Request $request, Response $response){
+
+    $pegarCarrinho = new CarrinhoCompras();
+    $resultado = $pegarCarrinho->montarValorTotalDaCesta();
+    echo $resultado;
+
+});
+
+$app->post('/pegarCarrinho/Remove', function(Request $request, Response $response){
+
+    $request_array = $request->getParsedBody();
+    $chave = $request_array['chave'];
+    $pegarCarrinho = new CarrinhoCompras();
+    $resultado = $pegarCarrinho->RemoveitemCarrinho($chave);
+    echo $resultado;
 
 });
 

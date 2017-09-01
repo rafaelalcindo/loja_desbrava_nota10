@@ -13,7 +13,7 @@ function montarCesta($carrinho){
         // ================================== Inicio da Página ==========================
 
 
-        $cestaMontada [] = "<div class='clearfix colelem' id='u14945'><!-- group -->
+        $cestaMontada [] = "<div class='clearfix grpelem' id='u15366' style='margin-top: ".$valTop."%; '><!-- group -->
          <div class='museBGSize grpelem shared_content' id='u14947' data-content-guid='u14947_content'><!-- simple frame --></div>
          <!-- m_editable region-id='editable-static-tag-U14952-BP_infinity' template='carrinho.html' data-type='html' data-ice-options='disableImageResize,link,txtStyleTarget' -->
          <div class='clearfix grpelem shared_content' id='u14952-4' data-muse-uid='U14952' data-muse-type='txt_frame' data-IBE-flags='txtStyleSrc' data-content-guid='u14952-4_content'><!-- content -->
@@ -34,7 +34,7 @@ function montarCesta($carrinho){
          <!-- /m_editable -->
          <!-- m_editable region-id='editable-static-tag-U14948-BP_infinity' template='carrinho.html' data-type='html' data-ice-options='disableImageResize,link,txtStyleTarget' -->
          <div class='clearfix grpelem shared_content' id='u14948-4' data-muse-uid='U14948' data-muse-type='txt_frame' data-IBE-flags='txtStyleSrc' data-content-guid='u14948-4_content'><!-- content -->
-          <p>".$itens['preco']."</p>
+          <p>".number_format($itens['preco'],2,',','.' )."</p>
          </div>
          <!-- /m_editable -->
          <!-- m_editable region-id='editable-static-tag-U14954-BP_infinity' template='carrinho.html' data-type='html' data-ice-options='disableImageResize,link,txtStyleTarget' -->
@@ -44,16 +44,15 @@ function montarCesta($carrinho){
          <!-- /m_editable -->
          <!-- m_editable region-id='editable-static-tag-U14951-BP_infinity' template='carrinho.html' data-type='html' data-ice-options='disableImageResize,link,txtStyleTarget' -->
          <div class='clearfix grpelem shared_content' id='u14951-4' data-muse-uid='U14951' data-muse-type='txt_frame' data-IBE-flags='txtStyleSrc' data-content-guid='u14951-4_content'><!-- content -->
-          <p>".$itens['preco'] * $itens['quantidade'] ."</p>
+          <p>". number_format($itens['preco'] * $itens['quantidade'], 2, ',','.')."</p>
          </div>
          <!-- /m_editable -->
          <!-- m_editable region-id='editable-static-tag-U14946-BP_infinity' template='carrinho.html' data-type='html' data-ice-options='disableImageResize,link,txtStyleTarget' -->
-         <div class='clearfix grpelem shared_content' id='u14946-4' data-muse-uid='U14946' data-muse-type='txt_frame' data-IBE-flags='txtStyleSrc' data-content-guid='u14946-4_content'><!-- content -->
+         <div class='clearfix grpelem shared_content' id='u14946-4' style='cursor: pointer;' onclick='removeItem(".$key.")' data-muse-uid='U14946' data-muse-type='txt_frame' data-IBE-flags='txtStyleSrc' data-content-guid='u14946-4_content'><!-- content -->
           <p>X</p>
          </div>
          <!-- /m_editable -->
-         <hr/>
-        </div> ";
+        </div>";
 
               $valTop += 7;
 
@@ -63,32 +62,54 @@ function montarCesta($carrinho){
       }
     }
 
-    $cestaMontada[] =  "<div class='clearfix colelem shared_content' id='pu13029-6' data-content-guid='pu13029-6_content'><!-- group -->
-     <!-- m_editable region-id='editable-static-tag-U13029-BP_infinity' template='carrinho.html' data-type='html' data-ice-options='disableImageResize,link,txtStyleTarget' -->
-     <div class='clearfix grpelem' id='u13029-6' data-muse-uid='U13029' data-muse-type='txt_frame' data-IBE-flags='txtStyleSrc'><!-- content -->
-      <p id='u13029-2'>OBS: Para sua tranquilidade e segurança nosso sistema de pagamento é gerenciado pelo Mercado Pago.</p>
-      <p id='u13029-4'>Para calcular o frete basta clicar em finalizar compra para inserir seu CEP e escolher a melhor opção.</p>
-     </div>
-     <!-- /m_editable -->
-     <!-- m_editable region-id='editable-static-tag-U12829-BP_infinity' template='carrinho.html' data-type='html' data-ice-options='disableImageResize,link,txtStyleTarget' -->
-     <div class='clearfix grpelem' id='u12829-4' data-muse-uid='U12829' data-muse-type='txt_frame' data-IBE-flags='txtStyleSrc'><!-- content -->
-      <p>Total:</p>
-     </div>
-     <!-- /m_editable -->
-     <!-- m_editable region-id='editable-static-tag-U12832-BP_infinity' template='carrinho.html' data-type='html' data-ice-options='disableImageResize,link,txtStyleTarget' -->
-     <div class='clearfix grpelem' id='u12832-4' data-muse-uid='U12832' data-muse-type='txt_frame' data-IBE-flags='txtStyleSrc'><!-- content -->
-      <p>R$1.010,00</p>
-     </div>
-     <!-- /m_editable -->
-    </div>
-    <div class='colelem shared_content' id='u12835' data-content-guid='u12835_content'><!-- simple frame --></div>
-    <!-- m_editable region-id='editable-static-tag-U12838-BP_infinity' template='carrinho.html' data-type='html' data-ice-options='disableImageResize,link,txtStyleTarget' -->
-    <div class='clearfix colelem shared_content' id='u12838-4' data-muse-uid='U12838' data-muse-type='txt_frame' data-IBE-flags='txtStyleSrc' data-content-guid='u12838-4_content'><!-- content -->
-     <p>FINALIZAR COMPRA</p>
-    </div>
-    ";
+    //$cestaMontada[] =  '';
 
     return $cestaMontada;
+
+}
+
+
+
+
+
+
+function mostrarCestaTotal($carrinho){
+      $TotalMontada;
+      $totalPagar = 0;
+      $SubTotal = 0;
+
+      foreach ($carrinho as $key => $valores) {
+        foreach ($valores as $itens) {
+          $SubTotal = $itens['quantidade'] * $itens['preco'];
+          $totalPagar += $SubTotal;
+        }
+      }
+
+      $TotalMontada = "<div class='clearfix colelem shared_content' id='pu13029-6' data-content-guid='pu13029-6_content'><!-- group -->
+       <!-- m_editable region-id='editable-static-tag-U13029-BP_infinity' template='carrinho.html' data-type='html' data-ice-options='disableImageResize,link,txtStyleTarget' -->
+       <div class='clearfix grpelem shared_content' id='u13029-6' data-muse-uid='U13029' data-muse-type='txt_frame' data-IBE-flags='txtStyleSrc' data-content-guid='u13029-6_content'><!-- content -->
+        <p id='u13029-2'>OBS: Para sua tranquilidade e segurança nosso sistema de pagamento é gerenciado pelo Mercado Pago.</p>
+        <p id='u13029-4'>Para calcular o frete basta clicar em finalizar compra para inserir seu CEP e escolher a melhor opção.</p>
+       </div>
+       <!-- /m_editable -->
+       <!-- m_editable region-id='editable-static-tag-U12829-BP_infinity' template='carrinho.html' data-type='html' data-ice-options='disableImageResize,link,txtStyleTarget' -->
+       <div class='clearfix grpelem shared_content' id='u12829-4' data-muse-uid='U12829' data-muse-type='txt_frame' data-IBE-flags='txtStyleSrc' data-content-guid='u12829-4_content'><!-- content -->
+        <p>Total:</p>
+       </div>
+       <!-- /m_editable -->
+       <!-- m_editable region-id='editable-static-tag-U12832-BP_infinity' template='carrinho.html' data-type='html' data-ice-options='disableImageResize,link,txtStyleTarget' -->
+       <div class='clearfix grpelem shared_content' id='u12832-4' data-muse-uid='U12832' data-muse-type='txt_frame' data-IBE-flags='txtStyleSrc' data-content-guid='u12832-4_content'><!-- content -->
+        <p>".number_format($totalPagar,2,',','.')."</p>
+       </div>
+       <!-- /m_editable -->
+      </div>
+      <div class='colelem shared_content' id='u12835' data-content-guid='u12835_content'><!-- simple frame --></div>
+      <!-- m_editable region-id='editable-static-tag-U12838-BP_infinity' template='carrinho.html' data-type='html' data-ice-options='disableImageResize,link,txtStyleTarget' -->
+      <div class='clearfix colelem shared_content' id='u12838-4' style='cursor: pointer' onclick='finalizarCompra()'  data-muse-uid='U12838' data-muse-type='txt_frame' data-IBE-flags='txtStyleSrc' data-content-guid='u12838-4_content'><!-- content -->
+       <p>FINALIZAR COMPRA</p>
+      </div>";
+
+      return $TotalMontada;
 
 }
 

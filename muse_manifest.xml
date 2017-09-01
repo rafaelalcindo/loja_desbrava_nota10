@@ -1,12 +1,12 @@
-<manifest alg="2" build="2017.0.2.363" opt="true" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" ftp_hostname="ftp://ftp.aqcez.com.br" ftp_rootfolder="/public_html/desbravadornota10.com.br/teste" exportTarget="FTP" domain="www.desbravadornota10.com.br/teste" resolutions="1x" timestamp="1504203875980">
+<manifest alg="2" build="2017.0.2.363" opt="true" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" ftp_hostname="ftp://ftp.aqcez.com.br" ftp_rootfolder="/public_html/desbravadornota10.com.br/teste" exportTarget="FTP" domain="www.desbravadornota10.com.br/teste" resolutions="1x" timestamp="1504207488042">
   <folder name="css">
     <file name="site_global.css" crc="443350757"/>
     <file name="master_a-mestre.css" crc="4029813451" ref="clientes:carrinho:index"/>
     <file name="nomq_preview_master_a-mestre.css" crc="3980135006" ref="clientes:carrinho:index"/>
     <file name="clientes.css" crc="4067117116" ref="clientes"/>
     <file name="nomq_clientes.css" crc="366041851" ref="clientes"/>
-    <file name="carrinho.css" crc="183895137" ref="carrinho"/>
-    <file name="nomq_carrinho.css" crc="217259816" ref="carrinho"/>
+    <file name="carrinho.css" crc="240830434" ref="carrinho"/>
+    <file name="nomq_carrinho.css" crc="4120373659" ref="carrinho"/>
     <file name="index.css" crc="156137007" ref="index"/>
     <file name="nomq_index.css" crc="3953877023" ref="index"/>
     <file name="iefonts_carrinho.css" crc="3824530138" ref="carrinho"/>
@@ -307,15 +307,14 @@
     </file>
     <file name="aclmelma.png" crc="287203478" ref="carrinho">
       <caption webpage="carrinho" alt=""/>
-      <caption webpage="carrinho" alt=""/>
     </file>
-    <file name="aclmelma-u12780-fr.jpg" crc="3912738342" ref="carrinho"/>
-    <file name="aclmelma-u12780-fr2.jpg" crc="339781765" ref="carrinho"/>
-    <file name="aclmelma-u12780-fr3.jpg" crc="4136013475" ref="carrinho"/>
+    <file name="aclmelma-u14947-fr.jpg" crc="3912738342" ref="carrinho"/>
+    <file name="aclmelma-u14947-fr2.jpg" crc="339781765" ref="carrinho"/>
+    <file name="aclmelma-u14947-fr3.jpg" crc="4136013475" ref="carrinho"/>
   </folder>
   <file name="index.html" crc="4058250175" seo="true" mt="1504189323126" redirect="true"/>
   <file name="clientes.html" crc="153229835" seo="true" mt="1504189323126" redirect="true"/>
-  <file name="carrinho.html" crc="3947549462" seo="true" mt="1504203780007" redirect="true"/>
+  <file name="carrinho.html" crc="3963843125" seo="true" mt="1504207457229" redirect="true"/>
   <site>
     <paragraphStyle className="normal_text" uid="U49"/>
     <nestedListStyle className="nls-None" uid="U52"/>

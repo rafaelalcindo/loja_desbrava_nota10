@@ -103,16 +103,60 @@
       }
     }
 
+    //============================== montar cesta =============================
+
     public function montarCestaTotal(){
 
       if(isset($_COOKIE['meus_produtos'])){
         $meu_array = isset($_COOKIE['meus_produtos'])? $_COOKIE['meus_produtos'] : "";
         $meu_array = unserialize($meu_array);
 
-        $cestaMontada = montarCesta($meu_array);        
-        return $cestaMontada;
+        if(count($meu_array) > 0){
+          $cestaMontada = montarCesta($meu_array);
+          return $cestaMontada;
+        }else{
+          return "";
+        }
 
+
+
+      }else{
+        return "";
       }
+
+    }
+
+    // ======================== Montar cesta Valor Total =====================
+
+    public function montarValorTotalDaCesta(){
+      if(isset($_COOKIE['meus_produtos'])){
+        $meu_array = isset($_COOKIE['meus_produtos'])? $_COOKIE['meus_produtos'] : "";
+        $meu_array = unserialize($meu_array);
+
+        if(count($meu_array) > 0){
+          $cestaMontadaTotal = mostrarCestaTotal($meu_array);
+          return $cestaMontadaTotal;
+        }else{ return ""; }
+
+      }else{
+        return "";
+      }
+    }
+
+    // ========================== Remover Item do Carrinho =========================
+
+    public function RemoveitemCarrinho($chave){
+      if(isset($_COOKIE['meus_produtos'])){
+        //echo "entrou produtos";
+          $meu_array = isset($_COOKIE['meus_produtos'])? $_COOKIE['meus_produtos'] : "";
+          $meu_array = unserialize($meu_array);
+
+          unset($meu_array[$chave]);
+          $meu_array = array_values($meu_array);
+          $meu_array = serialize($meu_array);
+          setcookie("meus_produtos",$meu_array,time()+60*60*24*100, "/");
+          return "true";
+      }else{ return "false"; }
 
     }
 
@@ -174,10 +218,10 @@
                         	);
     //echo "<br/>Intens completos: ".print_r($itens);
 
-    //$mp->sandbox_mode(TRUE);
+    $mp->sandbox_mode(TRUE);
     $preference = $mp->create_preference($itens);
     //echo "<br/><br/> preference resu: ".print_r($preference);
-    return $preference["response"]["init_point"];
+    return $preference["response"]["sandbox_init_point"];
 
   }
 
