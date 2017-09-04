@@ -218,10 +218,10 @@
                         	);
     //echo "<br/>Intens completos: ".print_r($itens);
 
-    $mp->sandbox_mode(TRUE);
+    //$mp->sandbox_mode(TRUE);
     $preference = $mp->create_preference($itens);
     //echo "<br/><br/> preference resu: ".print_r($preference);
-    return $preference["response"]["sandbox_init_point"];
+    return $preference["response"]["init_point"];
 
   }
 

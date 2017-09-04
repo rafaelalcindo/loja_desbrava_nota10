@@ -8,7 +8,11 @@ $(document).ready(function(){
       if(data > 0){
         $('#u10666-4').children().remove();
         $('#u10666-4').append("<p>"+data+"</p>");
+      }else{
+        $('#u10666-4').children().remove();
+        $('#u10666-4').append("<p>0</p>");
       }
+
     }
   });
 });

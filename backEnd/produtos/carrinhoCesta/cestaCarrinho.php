@@ -13,7 +13,7 @@ function montarCesta($carrinho){
         // ================================== Inicio da Página ==========================
 
 
-        $cestaMontada [] = "<div class='clearfix grpelem' id='u15366' style='margin-top: ".$valTop."%; '><!-- group -->
+        $cestaMontada [] = "<div class='clearfix grpelem' id='u15366' style='border-bottom: 2px solid #1a1a1a; margin-top: ".$valTop."%;   '><!-- group -->
          <div class='museBGSize grpelem shared_content' id='u14947' data-content-guid='u14947_content'><!-- simple frame --></div>
          <!-- m_editable region-id='editable-static-tag-U14952-BP_infinity' template='carrinho.html' data-type='html' data-ice-options='disableImageResize,link,txtStyleTarget' -->
          <div class='clearfix grpelem shared_content' id='u14952-4' data-muse-uid='U14952' data-muse-type='txt_frame' data-IBE-flags='txtStyleSrc' data-content-guid='u14952-4_content'><!-- content -->
@@ -52,9 +52,10 @@ function montarCesta($carrinho){
           <p>X</p>
          </div>
          <!-- /m_editable -->
-        </div>";
+        </div>
+        ";
 
-              $valTop += 7;
+              $valTop += 9;
 
 
         //====================================== Fim da Pagina ======================
