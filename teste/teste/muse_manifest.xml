@@ -1,0 +1,341 @@
+<manifest alg="2" build="2017.0.2.363" opt="true" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" ftp_hostname="ftp://ftp.aqcez.com.br" ftp_rootfolder="/public_html/desbravadornota10.com.br/teste" exportTarget="FTP" domain="www.desbravadornota10.com.br/teste" resolutions="1x" timestamp="1504298061295">
+  <folder name="css">
+    <file name="site_global.css" crc="443350757"/>
+    <file name="master_a-mestre.css" crc="518361466" ref="clientes:carrinho:index"/>
+    <file name="nomq_preview_master_a-mestre.css" crc="3980135006" ref="clientes:carrinho:index"/>
+    <file name="clientes.css" crc="3882930444" ref="clientes"/>
+    <file name="nomq_clientes.css" crc="366041851" ref="clientes"/>
+    <file name="carrinho.css" crc="441262833" ref="carrinho"/>
+    <file name="nomq_carrinho.css" crc="3846513186" ref="carrinho"/>
+    <file name="index.css" crc="4179562622" ref="index"/>
+    <file name="nomq_index.css" crc="4074032769" ref="index"/>
+    <file name="iefonts_carrinho.css" crc="3824530138" ref="carrinho"/>
+    <file name="iefonts_index.css" crc="3824530138" ref="index"/>
+  </folder>
+  <folder name="scripts">
+    <file name="jquery-1.8.3.min.js" crc="209076791" ref="index:clientes:carrinho"/>
+    <file name="museutils.js" crc="4232573551" ref="index:clientes:carrinho"/>
+    <file name="whatinput.js" crc="86476730" ref="index:clientes:carrinho"/>
+    <file name="museconfig.js" crc="4152223963" ref="index:clientes:carrinho"/>
+    <file name="jquery.watch.js" crc="3844535323" ref="index:clientes:carrinho"/>
+    <file name="jquery.musepolyfill.bgsize.js" crc="3880853905" ref="index:clientes:carrinho"/>
+    <file name="webpro.js" crc="3770351119" ref="index:clientes:carrinho"/>
+    <file name="musewpslideshow.js" crc="4244742588" ref="index:clientes:carrinho"/>
+    <file name="jquery.museoverlay.js" crc="432750910" ref="index:clientes:carrinho"/>
+    <file name="touchswipe.js" crc="3912873526" ref="index:clientes:carrinho"/>
+    <file name="jquery.musemenu.js" crc="38860304" ref="index:clientes:carrinho"/>
+    <file name="html5shiv.js" crc="4241844378" ref="index:clientes:carrinho"/>
+    <file name="jquery.museresponsive.js" crc="433634197" ref="index:clientes:carrinho"/>
+    <file name="require.js" crc="4234670167" ref="index:clientes:carrinho"/>
+  </folder>
+  <folder name="images">
+    <file name="social3_04.png" crc="36851366" ref="index">
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="logo-crop-u7478.png" crc="13240684" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="imagem colada 256x256-crop-u7482.png" crc="3993281577" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="imagem colada 512x512.png" crc="450501514" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="logo.png" crc="3954312489" ref="index">
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="clientes" alt=""/>
+      <caption webpage="carrinho" alt=""/>
+      <caption webpage="carrinho" alt=""/>
+      <caption webpage="carrinho" alt=""/>
+      <caption webpage="carrinho" alt=""/>
+      <caption webpage="carrinho" alt=""/>
+    </file>
+    <file name="fundo-branco.svg" crc="514499231" ref="index"/>
+    <file name="fundo-branco_poster_u8949.png" crc="282167035" ref="index"/>
+    <file name="fundo-cinza.svg" crc="3929469030" ref="index"/>
+    <file name="fundo-cinza_poster_u8957.png" crc="439313632" ref="index"/>
+    <file name="fundo-preto.svg" crc="497183933" ref="index"/>
+    <file name="fundo-preto_poster_u8965.png" crc="3820369713" ref="index"/>
+    <file name="fundo-vermelho.svg" crc="400410335" ref="index"/>
+    <file name="fundo-vermelho_poster_u8973.png" crc="3861199532" ref="index"/>
+    <file name="fundo-verde.svg" crc="3959459149" ref="index"/>
+    <file name="fundo-verde_poster_u8981.png" crc="4025077161" ref="index"/>
+    <file name="fundo-roxo.svg" crc="388417475" ref="index"/>
+    <file name="fundo-roxo_poster_u8989.png" crc="3988486566" ref="index"/>
+    <file name="fundo-rosa.svg" crc="4198481256" ref="index"/>
+    <file name="fundo-rosa_poster_u8997.png" crc="3934891081" ref="index"/>
+    <file name="fundo-laranja.svg" crc="308953832" ref="index"/>
+    <file name="fundo-laranja_poster_u9005.png" crc="119501618" ref="index"/>
+    <file name="fundo-amarelo.svg" crc="340469647" ref="index"/>
+    <file name="fundo-amarelo_poster_u9013.png" crc="4204203658" ref="index"/>
+    <file name="fundo-azul.svg" crc="459599909" ref="index"/>
+    <file name="fundo-azul_poster_u8941.png" crc="4196383364" ref="index"/>
+    <file name="fundo_branco-u2398-fr.png" crc="260227625" ref="index"/>
+    <file name="fundo_cinza-u2403-fr.png" crc="66097139" ref="index"/>
+    <file name="fundo_preto-u2402-fr.png" crc="491982138" ref="index"/>
+    <file name="fundo_vermelho-u2404-fr.png" crc="480085638" ref="index"/>
+    <file name="fundo_verde-u2399-fr.png" crc="4143329514" ref="index"/>
+    <file name="fundo_roxo-u2405-fr.png" crc="3807474420" ref="index"/>
+    <file name="fundo_rosa-u2401-fr.png" crc="392918470" ref="index"/>
+    <file name="fundo_laranja-u2400-fr.png" crc="506418413" ref="index"/>
+    <file name="fundo_amarelo-u2406-fr.png" crc="4080044449" ref="index"/>
+    <file name="borda-azul-claro.svg" crc="4119166632" ref="index"/>
+    <file name="borda-azul-claro_poster_u8821.png" crc="4248060238" ref="index"/>
+    <file name="borda-branca.svg" crc="43134399" ref="index"/>
+    <file name="borda-branca_poster_u8829.png" crc="321137263" ref="index"/>
+    <file name="borda-cinza-claro.svg" crc="4217606094" ref="index"/>
+    <file name="borda-cinza-claro_poster_u8837.png" crc="3884342920" ref="index"/>
+    <file name="borda-cinza.svg" crc="224914765" ref="index"/>
+    <file name="borda-cinza_poster_u8845.png" crc="269897136" ref="index"/>
+    <file name="borda-preto.svg" crc="4157231157" ref="index"/>
+    <file name="borda-preto_poster_u8853.png" crc="53180280" ref="index"/>
+    <file name="borda-azul.svg" crc="3804577291" ref="index"/>
+    <file name="borda-azul_poster_u8861.png" crc="4011731265" ref="index"/>
+    <file name="borda-vermelho-claro.svg" crc="3808584068" ref="index"/>
+    <file name="borda-vermelho-claro_poster_u8869.png" crc="3785872801" ref="index"/>
+    <file name="borda-vermelha.svg" crc="56814845" ref="index"/>
+    <file name="borda-vermelha_poster_u8877.png" crc="4131895055" ref="index"/>
+    <file name="borda-verde-claro.svg" crc="430103777" ref="index"/>
+    <file name="borda-verde-claro_poster_u8885.png" crc="4103777645" ref="index"/>
+    <file name="borda-verde.svg" crc="121350157" ref="index"/>
+    <file name="borda-verde_poster_u8893.png" crc="21744918" ref="index"/>
+    <file name="borda-roxo.svg" crc="4083521353" ref="index"/>
+    <file name="borda-roxo_poster_u8901.png" crc="504884864" ref="index"/>
+    <file name="borda-rosa.svg" crc="3827663700" ref="index"/>
+    <file name="borda-rosa_poster_u8909.png" crc="3927492405" ref="index"/>
+    <file name="borda-laranja.svg" crc="4158455146" ref="index"/>
+    <file name="borda-laranja_poster_u8917.png" crc="91189157" ref="index"/>
+    <file name="borda-amarelo-claro.svg" crc="3800198421" ref="index"/>
+    <file name="borda-amarelo-claro_poster_u8925.png" crc="229451804" ref="index"/>
+    <file name="borda-amarela.svg" crc="359538447" ref="index"/>
+    <file name="borda-amarela_poster_u8933.png" crc="3878865084" ref="index"/>
+    <file name="logo-branco.svg" crc="382331901" ref="index"/>
+    <file name="logo-branco_poster_u9021.png" crc="4246578693" ref="index"/>
+    <file name="logo-preto.svg" crc="311165746" ref="index"/>
+    <file name="logo-preto_poster_u9029.png" crc="77858537" ref="index"/>
+    <file name="logo-cinza-claro.svg" crc="106010379" ref="index"/>
+    <file name="logo-cinza-claro_poster_u9037.png" crc="377941144" ref="index"/>
+    <file name="logo-cinza.svg" crc="4045810696" ref="index"/>
+    <file name="logo-cinza_poster_u9045.png" crc="263005869" ref="index"/>
+    <file name="logo-azul-claro.svg" crc="4220579747" ref="index"/>
+    <file name="logo-azul-claro_poster_u9053.png" crc="169406332" ref="index"/>
+    <file name="logo-azul.svg" crc="4263257414" ref="index"/>
+    <file name="logo-azul_poster_u9061.png" crc="3759054850" ref="index"/>
+    <file name="logo-vermelho-claro.svg" crc="524208538" ref="index"/>
+    <file name="logo-vermelho-claro_poster_u9069.png" crc="3993440491" ref="index"/>
+    <file name="logo-vermelho.svg" crc="3936911487" ref="index"/>
+    <file name="logo-vermelho_poster_u9077.png" crc="455427832" ref="index"/>
+    <file name="logo-verde-claro.svg" crc="3977625805" ref="index"/>
+    <file name="logo-verde-claro_poster_u9085.png" crc="450778200" ref="index"/>
+    <file name="logo-verde.svg" crc="157895869" ref="index"/>
+    <file name="logo-verde_poster_u9093.png" crc="4276351571" ref="index"/>
+    <file name="logo-roxo.svg" crc="4093303153" ref="index"/>
+    <file name="logo-roxo_poster_u9101.png" crc="491967126" ref="index"/>
+    <file name="logo-rosa.svg" crc="4211817349" ref="index"/>
+    <file name="logo-rosa_poster_u9109.png" crc="415760565" ref="index"/>
+    <file name="logo-laranja.svg" crc="349359143" ref="index"/>
+    <file name="logo-laranja_poster_u9117.png" crc="13753399" ref="index"/>
+    <file name="logo-amarelo-claro.svg" crc="4093132301" ref="index"/>
+    <file name="logo-amarelo-claro_poster_u9125.png" crc="4291011679" ref="index"/>
+    <file name="logo-amarelo.svg" crc="4093662533" ref="index"/>
+    <file name="logo-amarelo_poster_u9133.png" crc="493674743" ref="index"/>
+    <file name="espada-branco.svg" crc="4002705289" ref="index"/>
+    <file name="espada-branco_poster_u8709.png" crc="290230672" ref="index"/>
+    <file name="espada-verde-claro.svg" crc="196649822" ref="index"/>
+    <file name="espada-verde-claro_poster_u8765.png" crc="4289797388" ref="index"/>
+    <file name="espada-amarela-clara.svg" crc="3797205502" ref="index"/>
+    <file name="espada-amarela-clara_poster_u8805.png" crc="461433881" ref="index"/>
+    <file name="espada-azul-claro.svg" crc="150298267" ref="index"/>
+    <file name="espada-azul-claro_poster_u8701.png" crc="1885746" ref="index"/>
+    <file name="espada_branco-u2520-fr.png" crc="174099036" ref="index"/>
+    <file name="espada-cinza-claro.svg" crc="3923849883" ref="index"/>
+    <file name="espada-cinza-claro_poster_u8717.png" crc="459234845" ref="index"/>
+    <file name="espada-cinza.svg" crc="219013070" ref="index"/>
+    <file name="espada-cinza_poster_u8725.png" crc="165428412" ref="index"/>
+    <file name="espada-preto.svg" crc="346930361" ref="index"/>
+    <file name="espada-preto_poster_u8733.png" crc="315701851" ref="index"/>
+    <file name="espada-azul.svg" crc="4000788629" ref="index"/>
+    <file name="espada-azul_poster_u8741.png" crc="435997232" ref="index"/>
+    <file name="espada-vermelho-claro.svg" crc="379712176" ref="index"/>
+    <file name="espada-vermelho-claro_poster_u8749.png" crc="455898685" ref="index"/>
+    <file name="espada-vermelha.svg" crc="4219321156" ref="index"/>
+    <file name="espada-vermelha_poster_u8757.png" crc="4251106975" ref="index"/>
+    <file name="espada_verde_claro-u2515-fr.png" crc="322891610" ref="index"/>
+    <file name="espada-verde.svg" crc="462947368" ref="index"/>
+    <file name="espada-verde_poster_u8773.png" crc="4182458511" ref="index"/>
+    <file name="espada-roxo.svg" crc="56836000" ref="index"/>
+    <file name="espada-roxo_poster_u8781.png" crc="94221509" ref="index"/>
+    <file name="espada-rosa.svg" crc="4190191357" ref="index"/>
+    <file name="espada-rosa_poster_u8789.png" crc="4268193164" ref="index"/>
+    <file name="espada-laranja.svg" crc="383027701" ref="index"/>
+    <file name="espada-laranja_poster_u8797.png" crc="3913028236" ref="index"/>
+    <file name="espada_amarelo_claro-u2510-fr.png" crc="15735162" ref="index"/>
+    <file name="espada-amarela.svg" crc="173839490" ref="index"/>
+    <file name="espada-amarela_poster_u8813.png" crc="3893664781" ref="index"/>
+    <file name="shopping-cart.svg" crc="114638831" ref="index"/>
+    <file name="shopping-cart_poster_u10658.png" crc="292345442" ref="index"/>
+    <file name="menu-alt-256.png" crc="191789486" seo="true" ref="index:clientes:carrinho">
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="clientes" alt=""/>
+      <caption webpage="clientes" alt=""/>
+      <caption webpage="clientes" alt=""/>
+      <caption webpage="clientes" alt=""/>
+      <caption webpage="clientes" alt=""/>
+      <caption webpage="carrinho" alt=""/>
+      <caption webpage="carrinho" alt=""/>
+      <caption webpage="carrinho" alt=""/>
+      <caption webpage="carrinho" alt=""/>
+      <caption webpage="carrinho" alt=""/>
+    </file>
+    <file name="logo-crop-u74782.png" crc="13240684" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="imagem colada 256x256-crop-u74822.png" crc="3993281577" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="logo-crop-u74783.png" crc="13240684" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="imagem colada 256x256-crop-u74823.png" crc="3993281577" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="logo-crop-u74784.png" crc="4132986954" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="imagem colada 256x256-crop-u74824.png" crc="3993281577" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="social3_04-u7474-fr.png" crc="47686965" ref="index"/>
+    <file name="logo-crop-u74785.png" crc="4218858575" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="imagem colada 256x256-crop-u74825.png" crc="3993281577" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="social3_04-u7474-fr2.png" crc="4034403507" ref="index"/>
+    <file name="blank.gif" crc="4208392903" ref="index:clientes:carrinho"/>
+    <file name="16174517_1222233517867774_7955422324719512254_n.jpg" crc="4014282832" ref="clientes">
+      <caption webpage="clientes" alt=""/>
+      <caption webpage="clientes" alt=""/>
+      <caption webpage="clientes" alt=""/>
+      <caption webpage="clientes" alt=""/>
+      <caption webpage="clientes" alt=""/>
+    </file>
+    <file name="19510220_780314758813949_4430120359145928061_n.jpg" crc="506173966" ref="clientes">
+      <caption webpage="clientes" alt=""/>
+      <caption webpage="clientes" alt=""/>
+      <caption webpage="clientes" alt=""/>
+      <caption webpage="clientes" alt=""/>
+      <caption webpage="clientes" alt=""/>
+    </file>
+    <file name="1003645_576917065686049_1644881672_n.jpg" crc="3855381046" ref="clientes">
+      <caption webpage="clientes" alt=""/>
+      <caption webpage="clientes" alt=""/>
+      <caption webpage="clientes" alt=""/>
+      <caption webpage="clientes" alt=""/>
+      <caption webpage="clientes" alt=""/>
+    </file>
+    <file name="10534264_649826315137578_8880053310843971775_n.jpg" crc="3976003677" ref="clientes">
+      <caption webpage="clientes" alt=""/>
+      <caption webpage="clientes" alt=""/>
+      <caption webpage="clientes" alt=""/>
+      <caption webpage="clientes" alt=""/>
+      <caption webpage="clientes" alt=""/>
+    </file>
+    <file name="16002956_1320753847947615_8987941840304357_n.jpg" crc="3781540881" ref="clientes">
+      <caption webpage="clientes" alt=""/>
+      <caption webpage="clientes" alt=""/>
+      <caption webpage="clientes" alt=""/>
+      <caption webpage="clientes" alt=""/>
+      <caption webpage="clientes" alt=""/>
+    </file>
+    <file name="13533014_615384518621433_842122969072599763_n.jpg" crc="3903735467" ref="clientes">
+      <caption webpage="clientes" alt=""/>
+      <caption webpage="clientes" alt=""/>
+      <caption webpage="clientes" alt=""/>
+      <caption webpage="clientes" alt=""/>
+      <caption webpage="clientes" alt=""/>
+    </file>
+    <file name="1622161_1465090587039928_36552736_n.jpg" crc="3930357695" ref="clientes">
+      <caption webpage="clientes" alt=""/>
+      <caption webpage="clientes" alt=""/>
+      <caption webpage="clientes" alt=""/>
+      <caption webpage="clientes" alt=""/>
+      <caption webpage="clientes" alt=""/>
+    </file>
+    <file name="1484427_692582704186718_1707592495075028044_n.jpg" crc="17528437" ref="clientes">
+      <caption webpage="clientes" alt=""/>
+      <caption webpage="clientes" alt=""/>
+      <caption webpage="clientes" alt=""/>
+      <caption webpage="clientes" alt=""/>
+      <caption webpage="clientes" alt=""/>
+    </file>
+    <file name="941926_378320435614353_412265606_n.jpg" crc="3819969204" ref="clientes">
+      <caption webpage="clientes" alt=""/>
+      <caption webpage="clientes" alt=""/>
+      <caption webpage="clientes" alt=""/>
+      <caption webpage="clientes" alt=""/>
+      <caption webpage="clientes" alt=""/>
+    </file>
+    <file name="10386315_296085137266573_3980663361897013425_n.jpg" crc="400041988" ref="clientes">
+      <caption webpage="clientes" alt=""/>
+      <caption webpage="clientes" alt=""/>
+      <caption webpage="clientes" alt=""/>
+      <caption webpage="clientes" alt=""/>
+      <caption webpage="clientes" alt=""/>
+    </file>
+    <file name="aclmelma.png" crc="287203478" ref="carrinho">
+      <caption webpage="carrinho" alt=""/>
+    </file>
+    <file name="aclmelma-u14947-fr.jpg" crc="3912738342" ref="carrinho"/>
+    <file name="aclmelma-u14947-fr2.jpg" crc="339781765" ref="carrinho"/>
+    <file name="aclmelma-u14947-fr3.jpg" crc="4136013475" ref="carrinho"/>
+  </folder>
+  <file name="index.html" crc="175002093" seo="true" mt="1504292518417" redirect="true"/>
+  <file name="clientes.html" crc="4087603286" seo="true" mt="1504289755990" redirect="true"/>
+  <file name="carrinho.html" crc="3954047784" seo="true" mt="1504289755990" redirect="true"/>
+  <site>
+    <paragraphStyle className="normal_text" uid="U49"/>
+    <nestedListStyle className="nls-None" uid="U52"/>
+  </site>
+  <renditions>
+    <rendition device="desktop">
+      <page name="Início" filename="index.html" muse_href="page:U93" master="U72">
+        <breakpoint uid="U8485" maxwidth="320" minwidth="0" squishy="true"/>
+        <breakpoint uid="U8269" maxwidth="480" minwidth="321" squishy="true"/>
+        <breakpoint uid="U7837" maxwidth="768" minwidth="481" squishy="true"/>
+        <breakpoint uid="U15545" maxwidth="1024" minwidth="769" squishy="true"/>
+        <breakpoint uid="U590" maxwidth="1280" minwidth="1025" squishy="true"/>
+      </page>
+      <masterPage name="A-mestre" master="U62" uid="U72">
+        <breakpoint uid="U9669" maxwidth="320" minwidth="0" squishy="true"/>
+        <breakpoint uid="U9697" maxwidth="480" minwidth="321" squishy="true"/>
+        <breakpoint uid="U9683" maxwidth="768" minwidth="481" squishy="true"/>
+        <breakpoint uid="U9711" maxwidth="1024" minwidth="769" squishy="true"/>
+        <breakpoint uid="U1207" maxwidth="1280" minwidth="1025" squishy="true"/>
+      </masterPage>
+      <masterPage name="None" master="null" uid="U62">
+        <breakpoint uid="U63" maxwidth="960" minwidth="0" squishy="true"/>
+      </masterPage>
+      <page name="Clientes" filename="clientes.html" muse_href="page:U9176" master="U72">
+        <breakpoint uid="U9142" maxwidth="1280" minwidth="0" squishy="true"/>
+      </page>
+      <page name="Carrinho" filename="carrinho.html" muse_href="page:U9668" master="U72">
+        <breakpoint uid="U9634" maxwidth="1280" minwidth="0" squishy="true"/>
+      </page>
+    </rendition>
+  </renditions>
+</manifest>
