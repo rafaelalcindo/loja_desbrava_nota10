@@ -5,7 +5,7 @@ function montarCesta($carrinho){
 
     $cestaMontada = array();
     $valTop = 0;
-    $caminhoImg = "";
+    $caminhoImg = '';
 
     foreach ($carrinho as $key => $valores) {
       foreach ($valores as $itens) {
@@ -14,8 +14,9 @@ function montarCesta($carrinho){
         // ================================== Inicio da Página ==========================
         $caminhoImg = imagemProduto($itens['titulo']);
 
-        $cestaMontada [] = "<div class='clearfix grpelem' id='u15366' style='border-bottom: 2px solid #1a1a1a; margin-top: ".$valTop."%;   '><!-- group -->
-         <div class='museBGSize grpelem shared_content' style='background-image: url(images/".$caminhoImg.".png )' id='u14947' data-content-guid='u14947_content'><!-- simple frame --></div>
+
+        $cestaMontada[] = "<div class='clearfix grpelem' id='u15366'  style='border-bottom: 2px solid #1a1a1a; margin-top: ".$valTop."%;'><!-- group -->
+         <div class='museBGSize grpelem shared_content' id='u14947' data-content-guid='u14947_content'><!-- simple frame --></div>
          <!-- m_editable region-id='editable-static-tag-U14952-BP_infinity' template='carrinho.html' data-type='html' data-ice-options='disableImageResize,link,txtStyleTarget' -->
          <div class='clearfix grpelem shared_content' id='u14952-4' data-muse-uid='U14952' data-muse-type='txt_frame' data-IBE-flags='txtStyleSrc' data-content-guid='u14952-4_content'><!-- content -->
           <p>".$itens['titulo']."</p>
@@ -49,16 +50,14 @@ function montarCesta($carrinho){
          </div>
          <!-- /m_editable -->
          <!-- m_editable region-id='editable-static-tag-U14946-BP_infinity' template='carrinho.html' data-type='html' data-ice-options='disableImageResize,link,txtStyleTarget' -->
-         <div class='clearfix grpelem shared_content' id='u14946-4' style='cursor: pointer;' onclick='removeItem(".$key.")' data-muse-uid='U14946' data-muse-type='txt_frame' data-IBE-flags='txtStyleSrc' data-content-guid='u14946-4_content'><!-- content -->
+         <div class='clearfix grpelem shared_content'  style='cursor: pointer;' onclick='removeItem(".$key.")' id='u14946-4' data-muse-uid='U14946' data-muse-type='txt_frame' data-IBE-flags='txtStyleSrc' data-content-guid='u14946-4_content'><!-- content -->
           <p>X</p>
          </div>
          <!-- /m_editable -->
-        </div>
-        ";
-
-              $valTop += 9;
+        </div>";
 
 
+          $valTop += 9;
         //====================================== Fim da Pagina ======================
 
       }
@@ -119,16 +118,16 @@ function mostrarCestaTotal($carrinho){
 
 
 function imagemProduto($titulo){
-    $caminho = "";
-    if($titulo == "Arganel de Amigo"){ return $caminho = "argamigo"; }
-    else if( $titulo == "Arganel de Companheiro"){ return $caminho = "argcompa"; }
-    else if( $titulo == "Arganel de Pesquisador"){ return $caminho = "argpesq"; }
-    else if( $titulo == "Arganel de Pioneiro"){ return $caminho = "argpion"; }
-    else if( $titulo == "Arganel de Excurcionista"){ return $caminho = "argexcu"; }
-    else if( $titulo == "Arganel de Guia"){ return $caminho = "argguia"; }
-    else if( $titulo == "Arganel de Lider Master"){ return $caminho = "arglimaster"; }
-    else if( $titulo == "Arganel de Lider Master Avançado"){ return $caminho = "arglimastav"; }
-    else{ return $caminho = "imgqualquer"; }
+    $caminho = '';
+    if($titulo == 'Arganel de Amigo'){ return $caminho = 'argamigo'; }
+    else if( $titulo == 'Arganel de Companheiro'){ return $caminho = 'argcompa'; }
+    else if( $titulo == 'Arganel de Pesquisador'){ return $caminho = 'argpesq'; }
+    else if( $titulo == 'Arganel de Pioneiro'){ return $caminho = 'argpion'; }
+    else if( $titulo == 'Arganel de Excurcionista'){ return $caminho = 'argexcu'; }
+    else if( $titulo == 'Arganel de Guia'){ return $caminho = 'argguia'; }
+    else if( $titulo == 'Arganel de Lider Master'){ return $caminho = 'arglimaster'; }
+    else if( $titulo == 'Arganel de Lider Master Avançado'){ return $caminho = 'arglimastav'; }
+    else{ return $caminho = 'imgqualquer'; }
 }
 
 ?>

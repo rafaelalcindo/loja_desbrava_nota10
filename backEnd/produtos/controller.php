@@ -8,6 +8,7 @@ require_once 'arganelPerso.class.php';
 require_once 'arganel.class.php';
 require 'carrinho.class.php';
 
+
 $configuration = [
     'settings' => [
         'displayErrorDetails' => true,
@@ -80,8 +81,12 @@ $app->get('/quantItens', function(Request $request, Response $response){
 
 
 $app->post('/finalizar/pagar', function (Request $request, Response $response){
+    $request_array = $request->getParsedBody();
+    $dados_cliente = array();
+    $dados_cliente['cliente_nome']  = $request_array['nome_cliente'];
+    $dados_cliente['cliente_email'] = $request_array['email_cliente'];
     $todosPedidos = new CarrinhoCompras();
-    $resultado = $todosPedidos->finalizarPedido();
+    $resultado = $todosPedidos->finalizarPedido($dados_cliente);
     echo $resultado;
 });
 
@@ -114,6 +119,18 @@ $app->post('/pegarCarrinho/Remove', function(Request $request, Response $respons
     $pegarCarrinho = new CarrinhoCompras();
     $resultado = $pegarCarrinho->RemoveitemCarrinho($chave);
     echo $resultado;
+
+});
+
+$app->get('/pegarCarrinho/EnviarEmail', function(Request $request, Response $response){
+
+    $pegarCarrinho = new CarrinhoCompras();
+    $resultado = $pegarCarrinho->EnviarEmailDetalhes();
+    if($resultado){
+      unset($_COOKIE['meus_cliente']);
+      unset($_COOKIE['meus_produtos']);
+      echo "true";
+    }else{ echo "false"; }
 
 });
 

@@ -4,12 +4,14 @@ $(document).ready(function(){
   $('#u16807-4').click(function(){
       var arganelAmigo = new Object();
       arganelAmigo.titulo = "Arganel de Amigo";
-      arganelAmigo.quantidade = "";
+      arganelAmigo.quantidade = $('#argamigo').val();
       arganelAmigo.preco = 5;
       arganelAmigo.descricao = "Arganel de Amigo";
       arganelAmigo.tipo = "amigo";
 
       console.log(arganelAmigo);
+      addChartArganel(arganelAmigo);
+
 
   });
 
@@ -17,37 +19,39 @@ $(document).ready(function(){
   $('#u16855-4').click(function(){
     var arganelCompanheiro = new Object();
       arganelCompanheiro.titulo = "Arganel de Companheiro";
-      arganelCompanheiro.quantidade = "";
+      arganelCompanheiro.quantidade = $('#argcompanheiro').val();
       arganelCompanheiro.preco = 5;
       arganelCompanheiro.descricao = "Arganel de Companheiro";
       arganelCompanheiro.tipo = "companheiro";
 
       console.log(arganelCompanheiro);
-
+      addChartArganel(arganelCompanheiro);
   });
 
   // arganel de pesquisador
   $('#u16875-4').click(function(){
     var arganelPesquisador = new Object();
       arganelPesquisador.titulo = "Arganel de Pesquisador";
-      arganelPesquisador.quantidade = "";
+      arganelPesquisador.quantidade = $('#argpesquisador').val();
       arganelPesquisador.preco = 5;
       arganelPesquisador.descricao = "Arganel de Pesquisador";
       arganelPesquisador.tipo = "Pesquisador";
 
       console.log(arganelPesquisador);
+      addChartArganel(arganelPesquisador);
   });
 
   // arganel de Pioneiro
   $('#u16935-4').click(function(){
     var arganelPioneiro = new Object();
       arganelPioneiro.titulo = "Arganel de Pioneiro";
-      arganelPioneiro.quantidade = "";
+      arganelPioneiro.quantidade = $('#argpioneiro').val();
       arganelPioneiro.preco = 5;
       arganelPioneiro.descricao = "Arganel de Pioneiro";
       arganelPioneiro.tipo = "Pioneiro";
 
       console.log(arganelPioneiro);
+      addChartArganel(arganelPioneiro);
 
   });
 
@@ -56,12 +60,13 @@ $(document).ready(function(){
 
     var arganelExcursionista = new Object();
       arganelExcursionista.titulo = "Arganel de Excurcionista";
-      arganelExcursionista.quantidade = "";
+      arganelExcursionista.quantidade = $('#argexcursionista').val();
       arganelExcursionista.preco = 5;
       arganelExcursionista.descricao = "Arganel de Excurcionista";
       arganelExcursionista.tipo = "Excursionista";
 
       console.log(arganelExcursionista);
+      addChartArganel(arganelExcursionista);
 
   });
 
@@ -69,62 +74,70 @@ $(document).ready(function(){
   $('#u16895-4').click(function(){
     var arganelGuia = new Object();
       arganelGuia.titulo = "Arganel de Guia";
-      arganelGuia.quantidade = "";
+      arganelGuia.quantidade = $('#argguia').val();
       arganelGuia.preco = 5;
       arganelGuia.descricao = "Arganel de Guia";
       arganelGuia.tipo = "Guia";
 
       console.log(arganelGuia);
+      addChartArganel(arganelGuia);
   });
 
   // arganel de Lider Master
   $('#u16958-4').click(function(){
     var arganelLiderMaster = new Object();
       arganelLiderMaster.titulo = "Arganel de Lider Master";
-      arganelLiderMaster.quantidade = "";
+      arganelLiderMaster.quantidade = $('#argLM').val();
       arganelLiderMaster.preco = 5;
       arganelLiderMaster.descricao = "Arganel de Lider Master";
       arganelLiderMaster.tipo = "Lider Master";
 
       console.log(arganelLiderMaster);
-
+      addChartArganel(arganelLiderMaster);
   });
 
   // arganel de Lider Master Avançado
   $('#u16955-4').click(function(){
     var arganelLiderMasterAvan = new Object();
       arganelLiderMasterAvan.titulo = "Arganel de Lider Master Avançado";
-      arganelLiderMasterAvan.quantidade = "";
+      arganelLiderMasterAvan.quantidade = $('#argLMA').val();
       arganelLiderMasterAvan.preco = 5;
       arganelLiderMasterAvan.descricao = "Arganel de Lider Master Avançado";
       arganelLiderMasterAvan.tipo = "Lider Master Avançado";
 
       console.log(arganelLiderMasterAvan);
-
+      addChartArganel(arganelLiderMasterAvan);
   });
 
 });
 
 
 function addChartArganel(obj){
-  var arganelAdd = new FormData();
-  arganelAdd.append('titulo', obj.titulo);
-  arganelAdd.append('nome_categoria', obj.descricao);
-  arganelAdd.append('preco', obj.preco);
-  arganelAdd.append('quantidade', obj.quantidade);
-  arganelAdd.append('tipo', obj.tipo );
 
-  $.ajax({
-      type: 'post',
-      processData: false,
-      contentType: false,
-      data: arganelAdd,
-      url: 'backEnd/produtos/controller.php/adicionar/arganel',
-      dataType: 'text',
-      success: function(data){
-          atualizarContCart();
-      }
-  });
+  if($.isNumeric(obj.quantidade)){
+    if(obj.quantidade > 0){
+          var arganelAdd = new FormData();
+          arganelAdd.append('titulo', obj.titulo);
+          arganelAdd.append('nome_categoria', obj.descricao);
+          arganelAdd.append('preco', obj.preco);
+          arganelAdd.append('quantidade', obj.quantidade);
+          arganelAdd.append('tipo', obj.tipo );
+
+          $.ajax({
+              type: 'post',
+              processData: false,
+              contentType: false,
+              data: arganelAdd,
+              url: 'backEnd/produtos/controller.php/adicionar/arganel',
+              dataType: 'text',
+              success: function(data){
+                  atualizarContCart();
+              }
+          });
+    }else{ alert('Por favor coloque números positivos'); }
+  }else{ alert('Por favor digite apenas números'); }
+
+
 
 }
 

@@ -2,6 +2,7 @@
 
   require_once "lib/mercadopago.php";
   require_once "carrinhoCesta/cestaCarrinho.php";
+  require_once "phpmailer/PHPMailerAutoload.php";
 
   class CarrinhoCompras
   {
@@ -55,7 +56,7 @@
       } */
     }
 
-    public function finalizarPedido(){
+    public function finalizarPedido($dadosCli){
       $itens =  array();
       $produto = array();
       $produto_add = array();
@@ -80,6 +81,7 @@
         }
 
         //echo "<br/><br/>Resultado do items Array: ".print_r($itens);
+        addCookieClient($dadosCli);
         $mercadoPagoResu = addMecardoPago($itens);
         return $mercadoPagoResu;
 
@@ -160,6 +162,22 @@
 
     }
 
+    // ======================== Enviar Email com os dados da Compra ================
+
+
+    public function EnviarEmailDetalhes(){
+      if(isset($_COOKIE['meus_produtos'])){
+        $meu_array = isset($_COOKIE['meus_produtos'])? $_COOKIE['meus_produtos'] : "";
+        $meu_array = unserialize($meu_array);
+
+        $messagem = "<html></body>";
+        $resuMSG  = criarMsgEmail($meu_array);
+        $messagem .= $resuMSG;
+        $messagem .= "</body></html>";
+        $resultado = mandarEmailDetalheCompra($messagem);
+        return $resultado;
+      }
+    }
 
 
   }
@@ -201,6 +219,16 @@
       //print_r(unserialize($meus_produtos));
     }
 
+  }
+
+  function addCookieClient($arrayCliente){
+        $meus_array = array();
+
+        $meu_array   = isset($_COOKIE['meus_cliente'])? $_COOKIE['meus_cliente'] : "";
+        $meu_array   = unserialize($meu_array);
+        $meu_array[] = $arrayCliente;        //print_r($meu_array);
+        $meu_array   = serialize($meu_array);
+        setcookie("meus_cliente",$meu_array,time()+60*60*24*100, "/");
   }
 
 
@@ -248,6 +276,71 @@
       //echo "<br/>Valor Peso: ".$valorPeso;
       //echo "<br/>";
       return $valorPeso;
+  }
+
+// ============================= mnadar msg email ===========================
+
+  function criarMsgEmail($itens){
+    $meu_array_cli = isset($_COOKIE['meus_cliente'])? $_COOKIE['meus_cliente'] : "";
+    $meu_array_cli = unserialize($meu_array_cli);
+
+    $message =  "<h3>Nome: ".$meu_array_cli[0]['cliente_nome']."</h3>";
+    $message .= "<h3>Email: ".$meu_array_cli[0]['cliente_email']."</h3>";
+
+    foreach ($itens as $key => $valores) {
+        //echo "<br/>Chave: ".$key;
+        foreach ($valores as $resu) {
+          $message .= '<table rules="all" style="border-color: #666;" cellpadding="10">' ;
+          $message .= "<tr style='background: #eee'><td><strong>Titulo: </strong> </td><td>".$resu['titulo']."</td> </tr>";
+          $message .= "<tr style='background: #eee'><td><strong>Descrição: </strong> </td><td>".$resu['nome_categoria']."</td> </tr>";
+          $message .= "<tr style='background: #eee'><td><strong>Quantidade: </strong> </td><td>".$resu['quantidade']."</td> </tr>";
+          $message .= "<tr style='background: #eee'><td><strong>preço: </strong> </td><td>".$resu['preco']."</td> </tr>";
+          $message .= "<tr style='background: #eee'><td><strong>Total: </strong> </td><td>".$resu['quantidade'] * $resu['preco']."</td> </tr>";
+          $message .= '</table>';
+
+        }
+      }
+
+      return $message;
+
+  }
+
+  function mandarEmailDetalheCompra($message){
+
+
+
+
+    $m = new PHPMailer;
+  	$m->CharSet = 'UTF-8';
+  	$m->isSMTP();
+  	$m->SMTPAuth = true;
+
+    $m->Host = 'br566.hostgator.com.br';
+  	$m->Username = 'contato@goconstruct.com.br';
+  	$m->Password = 'Contato123*';
+  	$m->SMTPSecure = 'ssl';
+  	$m->Port = 465;
+
+    $m->From = 'contato@goconstruct.com.br';
+  	$m->FromName = 'Contato';
+  	$m->addReplyTo('rafael@goconstruct.com.br','Reply address');
+  	$m->addAddress('rafael@goconstruct.com.br','Rafael');
+  	$m->addAddress('rafael@goconstruct.com.br','Rafael');
+  	//$m->addAddress('igor@goconstruct.com.br','Igor');
+  	$m->addAddress('bruno@goconstruct.com.br','Bruno');
+
+    $m->isHTML(true);
+
+    $m->Subject = "Detalhe dos Pedidos";
+  	$m->Body = $message;
+  	$m->AltBody = 'This is the body of an email';
+
+    if($m->send()){
+		    return true;
+  	}else{
+  		return false;
+  	}
+
   }
 
 
