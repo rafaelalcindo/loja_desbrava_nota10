@@ -26,6 +26,8 @@ $(document).ready(function(){
     });
 
 
+    $('#u9728').css('margin-top', '60px');
+
 
 });
 
@@ -163,11 +165,55 @@ function comprar_pedido(){
                         url: 'backEnd/produtos/controller.php/pegarCarrinho/EnviarEmail',
                         dataType: 'text',
                         success: function(data){
-
+                          if(data == 'true'){
+                            window.location.href = 'obrigado.html';
+                          }
                         }
                       });
                   }else if(data.collection_status=='in_process'){
-
+                    $.ajax({
+                          type: 'get',
+                          url: 'backEnd/produtos/controller.php/pegarCarrinho/EnviarEmail',
+                          dataType: 'text',
+                          success: function(data){
+                            if(data == 'true'){
+                              window.location.href = 'obrigado.html';
+                            }
+                          }
+                        });
+                  }else if(data.collection_status=='pending'){
+                    $.ajax({
+                          type: 'get',
+                          url: 'backEnd/produtos/controller.php/pegarCarrinho/EnviarEmail',
+                          dataType: 'text',
+                          success: function(data){
+                            if(data == 'true'){
+                              window.location.href = 'obrigado.html';
+                            }
+                          }
+                        });
+                  }else if(data.collection_status=='rejected'){
+                    $.ajax({
+                        type: 'get',
+                        url: 'backEnd/produtos/controller.php/pegarCarrinho/EnviarEmail',
+                        dataType: 'text',
+                        success: function(data){
+                          if(data == 'true'){
+                            window.location.href = 'obrigado.html';
+                          }
+                        }
+                      });
+                  }else if(data.collection_status==null){
+                    $.ajax({
+                        type: 'get',
+                        url: 'backEnd/produtos/controller.php/pegarCarrinho/EnviarEmail',
+                        dataType: 'text',
+                        success: function(data){
+                          if(data == 'true'){
+                            window.location.href = 'obrigado.html';
+                          }
+                        }
+                      });
                   }
                 }
             });

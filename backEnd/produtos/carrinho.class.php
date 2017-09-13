@@ -327,7 +327,7 @@
   	$m->addAddress('rafael@goconstruct.com.br','Rafael');
   	$m->addAddress('rafael@goconstruct.com.br','Rafael');
   	//$m->addAddress('igor@goconstruct.com.br','Igor');
-  	$m->addAddress('bruno@goconstruct.com.br','Bruno');
+  	$m->addAddress('financeiro@desbravadornota10.com.br','Bruno');
 
     $m->isHTML(true);
 
