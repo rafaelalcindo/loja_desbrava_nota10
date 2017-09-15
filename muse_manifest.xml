@@ -1,19 +1,19 @@
-<manifest alg="2" build="2017.0.2.363" opt="true" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" ftp_hostname="ftp://ftp.aqcez.com.br" ftp_rootfolder="/public_html/desbravadornota10.com.br/teste" exportTarget="FTP" domain="www.desbravadornota10.com.br/teste" resolutions="1x" timestamp="1504907992395">
+<manifest alg="2" build="2017.0.2.363" opt="true" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" ftp_hostname="ftp://ftp.aqcez.com.br" ftp_rootfolder="/public_html/desbravadornota10.com.br/teste" exportTarget="FTP" domain="www.desbravadornota10.com.br/teste" resolutions="1x" timestamp="1505186737215">
   <folder name="css">
     <file name="site_global.css" crc="443350757"/>
-    <file name="master_a-mestre.css" crc="4125028450" ref="clientes:carrinho:index:arganeis-classes:personalizados"/>
-    <file name="nomq_preview_master_a-mestre.css" crc="4027736479" ref="clientes:carrinho:index:arganeis-classes:personalizados"/>
-    <file name="clientes.css" crc="3851220516" ref="clientes"/>
+    <file name="master_a-mestre.css" crc="392128657" ref="clientes:carrinho:index:arganeis-classes:personalizados"/>
+    <file name="nomq_preview_master_a-mestre.css" crc="3991572512" ref="clientes:carrinho:index:arganeis-classes:personalizados"/>
+    <file name="clientes.css" crc="423698650" ref="clientes"/>
     <file name="nomq_clientes.css" crc="355198281" ref="clientes"/>
-    <file name="carrinho.css" crc="468769252" ref="carrinho"/>
-    <file name="nomq_carrinho.css" crc="156218402" ref="carrinho"/>
-    <file name="index.css" crc="3926746051" ref="index"/>
+    <file name="carrinho.css" crc="3904248269" ref="carrinho"/>
+    <file name="nomq_carrinho.css" crc="101118176" ref="carrinho"/>
+    <file name="index.css" crc="124567521" ref="index"/>
     <file name="nomq_index.css" crc="4113321644" ref="index"/>
     <file name="iefonts_carrinho.css" crc="3824530138" ref="carrinho"/>
-    <file name="arganeis-classes.css" crc="372879265" ref="arganeis-classes"/>
+    <file name="arganeis-classes.css" crc="4135330594" ref="arganeis-classes"/>
     <file name="nomq_arganeis-classes.css" crc="205038017" ref="arganeis-classes"/>
     <file name="iefonts_arganeis-classes.css" crc="3824530138" ref="arganeis-classes"/>
-    <file name="personalizados.css" crc="4117524175" ref="personalizados"/>
+    <file name="personalizados.css" crc="524370678" ref="personalizados"/>
     <file name="nomq_personalizados.css" crc="4168533397" ref="personalizados"/>
     <file name="iefonts_personalizados.css" crc="3824530138" ref="personalizados"/>
     <file name="iefonts_clientes.css" crc="3824530138" ref="clientes"/>
@@ -62,32 +62,32 @@
       <caption webpage="personalizados" alt=""/>
       <caption webpage="personalizados" alt=""/>
     </file>
-    <file name="logo.png" crc="3954312489" ref="personalizados:clientes:carrinho">
+    <file name="logo.png" crc="3954312489" ref="personalizados:carrinho">
       <caption webpage="index" alt=""/>
       <caption webpage="index" alt=""/>
       <caption webpage="index" alt=""/>
       <caption webpage="index" alt=""/>
       <caption webpage="index" alt=""/>
-      <caption webpage="carrinho" alt=""/>
-      <caption webpage="carrinho" alt=""/>
-      <caption webpage="carrinho" alt=""/>
-      <caption webpage="carrinho" alt=""/>
-      <caption webpage="carrinho" alt=""/>
-      <caption webpage="personalizados" alt=""/>
-      <caption webpage="personalizados" alt=""/>
-      <caption webpage="personalizados" alt=""/>
-      <caption webpage="personalizados" alt=""/>
-      <caption webpage="personalizados" alt=""/>
-      <caption webpage="clientes" alt=""/>
-      <caption webpage="clientes" alt=""/>
-      <caption webpage="clientes" alt=""/>
-      <caption webpage="clientes" alt=""/>
-      <caption webpage="clientes" alt=""/>
       <caption webpage="arganeis-classes" alt=""/>
       <caption webpage="arganeis-classes" alt=""/>
       <caption webpage="arganeis-classes" alt=""/>
       <caption webpage="arganeis-classes" alt=""/>
       <caption webpage="arganeis-classes" alt=""/>
+      <caption webpage="carrinho" alt=""/>
+      <caption webpage="carrinho" alt=""/>
+      <caption webpage="carrinho" alt=""/>
+      <caption webpage="carrinho" alt=""/>
+      <caption webpage="carrinho" alt=""/>
+      <caption webpage="clientes" alt=""/>
+      <caption webpage="clientes" alt=""/>
+      <caption webpage="clientes" alt=""/>
+      <caption webpage="clientes" alt=""/>
+      <caption webpage="clientes" alt=""/>
+      <caption webpage="personalizados" alt=""/>
+      <caption webpage="personalizados" alt=""/>
+      <caption webpage="personalizados" alt=""/>
+      <caption webpage="personalizados" alt=""/>
+      <caption webpage="personalizados" alt=""/>
     </file>
     <file name="fundo-branco.svg" crc="514499231" ref="personalizados"/>
     <file name="fundo-branco_poster_u8949.png" crc="282167035" ref="personalizados"/>
@@ -211,24 +211,24 @@
     <file name="espada_amarelo_claro-u2510-fr.png" crc="15735162" ref="personalizados"/>
     <file name="espada-amarela.svg" crc="173839490" ref="personalizados"/>
     <file name="espada-amarela_poster_u8813.png" crc="3893664781" ref="personalizados"/>
-    <file name="shopping-cart.svg" crc="114638831" ref="personalizados:clientes:carrinho"/>
-    <file name="shopping-cart_poster_u10658.png" crc="292345442" ref="personalizados:clientes:carrinho"/>
+    <file name="shopping-cart.svg" crc="114638831" ref="personalizados:carrinho"/>
+    <file name="shopping-cart_poster_u10658.png" crc="292345442" ref="personalizados:carrinho"/>
     <file name="menu-alt-256.png" crc="191789486" seo="true" ref="index:clientes:carrinho:personalizados:arganeis-classes">
       <caption webpage="index" alt=""/>
       <caption webpage="index" alt=""/>
       <caption webpage="index" alt=""/>
       <caption webpage="index" alt=""/>
       <caption webpage="index" alt=""/>
+      <caption webpage="arganeis-classes" alt=""/>
+      <caption webpage="arganeis-classes" alt=""/>
+      <caption webpage="arganeis-classes" alt=""/>
+      <caption webpage="arganeis-classes" alt=""/>
+      <caption webpage="arganeis-classes" alt=""/>
       <caption webpage="carrinho" alt=""/>
       <caption webpage="carrinho" alt=""/>
       <caption webpage="carrinho" alt=""/>
       <caption webpage="carrinho" alt=""/>
       <caption webpage="carrinho" alt=""/>
-      <caption webpage="personalizados" alt=""/>
-      <caption webpage="personalizados" alt=""/>
-      <caption webpage="personalizados" alt=""/>
-      <caption webpage="personalizados" alt=""/>
-      <caption webpage="personalizados" alt=""/>
       <caption webpage="clientes" alt=""/>
       <caption webpage="clientes" alt=""/>
       <caption webpage="clientes" alt=""/>
@@ -237,11 +237,11 @@
       <caption webpage="produtos" alt=""/>
       <caption webpage="produtos" alt=""/>
       <caption webpage="produtos" alt=""/>
-      <caption webpage="arganeis-classes" alt=""/>
-      <caption webpage="arganeis-classes" alt=""/>
-      <caption webpage="arganeis-classes" alt=""/>
-      <caption webpage="arganeis-classes" alt=""/>
-      <caption webpage="arganeis-classes" alt=""/>
+      <caption webpage="personalizados" alt=""/>
+      <caption webpage="personalizados" alt=""/>
+      <caption webpage="personalizados" alt=""/>
+      <caption webpage="personalizados" alt=""/>
+      <caption webpage="personalizados" alt=""/>
     </file>
     <file name="logo-crop-u74782.png" crc="13240684" seo="true" ref="personalizados">
       <caption webpage="index" alt=""/>
@@ -353,12 +353,13 @@
       <caption webpage="clientes" alt=""/>
       <caption webpage="clientes" alt=""/>
     </file>
-    <file name="aclmelma.png" crc="287203478" ref="carrinho">
+    <file name="aclmelma.png" crc="4201736271" ref="carrinho">
+      <caption webpage="carrinho" alt=""/>
+      <caption webpage="carrinho" alt=""/>
+      <caption webpage="carrinho" alt=""/>
+      <caption webpage="carrinho" alt=""/>
       <caption webpage="carrinho" alt=""/>
     </file>
-    <file name="aclmelma-u14947-fr.jpg" crc="3912738342" ref="carrinho"/>
-    <file name="aclmelma-u14947-fr2.jpg" crc="339781765" ref="carrinho"/>
-    <file name="aclmelma-u14947-fr3.jpg" crc="4136013475" ref="carrinho"/>
     <file name="captura de tela 2017-09-05 às 103056.jpg" crc="4122338263" ref="arganeis-classes">
       <caption webpage="arganeis-classes" alt=""/>
       <caption webpage="arganeis-classes" alt=""/>
@@ -419,11 +420,11 @@
       <caption webpage="clientes" alt=""/>
     </file>
   </folder>
-  <file name="index.html" crc="433764983" seo="true" mt="1504833135738" redirect="true"/>
-  <file name="clientes.html" crc="4216611583" seo="true" mt="1504898473990" redirect="true"/>
-  <file name="carrinho.html" crc="3765276282" seo="true" mt="1504907958803" redirect="true"/>
-  <file name="personalizados.html" crc="417259901" seo="true" mt="1504833135738" redirect="true"/>
-  <file name="arganeis-classes.html" crc="4179439513" seo="true" mt="1504833135738" redirect="true"/>
+  <file name="index.html" crc="4137280298" seo="true" mt="1505186439653" redirect="true"/>
+  <file name="clientes.html" crc="4278130095" seo="true" mt="1505186439653" redirect="true"/>
+  <file name="carrinho.html" crc="163812589" seo="true" mt="1505186705356" redirect="true"/>
+  <file name="personalizados.html" crc="336401663" seo="true" mt="1505186439653" redirect="true"/>
+  <file name="arganeis-classes.html" crc="3864272598" seo="true" mt="1505186439653" redirect="true"/>
   <site>
     <paragraphStyle className="normal_text" uid="U49"/>
     <nestedListStyle className="nls-None" uid="U52"/>
@@ -451,7 +452,10 @@
         <breakpoint uid="U9142" maxwidth="1280" minwidth="0" squishy="true"/>
       </page>
       <page name="Carrinho" filename="carrinho.html" muse_href="page:U9668" master="U72">
-        <breakpoint uid="U9634" maxwidth="1280" minwidth="0" squishy="true"/>
+        <breakpoint uid="U27197" maxwidth="480" minwidth="0" squishy="true"/>
+        <breakpoint uid="U27149" maxwidth="768" minwidth="481" squishy="true"/>
+        <breakpoint uid="U27101" maxwidth="1024" minwidth="769" squishy="true"/>
+        <breakpoint uid="U9634" maxwidth="1280" minwidth="1025" squishy="true"/>
       </page>
       <page name="Início" filename="index.html" muse_href="page:U16140" master="U72">
         <breakpoint uid="U16100" maxwidth="1280" minwidth="0" squishy="true"/>

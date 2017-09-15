@@ -1,5 +1,5 @@
 $(document).ready(function(){
-    $('#u15372').children().remove();
+    $('#pu27505').children().remove();
     $('#u15360').children().remove();
     //$('#u12080').hide();
     //alert('entrou cesta');
@@ -10,24 +10,28 @@ $(document).ready(function(){
       dataType: 'text',
       success: function(data){
         //alert(data);
-          $('#u15372').append(data);
-          $('#u15372').css('padding','5%');
+          $('#pu27505').append(data);
+          //$('#u15372').css('padding','5%');
+      },
+      complete: function(){
+        $.ajax({
+            type: 'get',
+            url: 'backEnd/produtos/controller.php/pegarCarrinho/Total',
+            dataType: 'text',
+            success: function(data){
+              //alert(data);
+                $('#pu27505').append(data);
+            }
+          });
       }
     });
 
-    $.ajax({
-      type: 'get',
-      url: 'backEnd/produtos/controller.php/pegarCarrinho/Total',
-      dataType: 'text',
-      success: function(data){
-        //alert(data);
-          $('#u15360').append(data);
-      }
-    });
 
 
     $('#u9728').css('margin-top', '60px');
-
+    var corpoModal = modalCorpo();
+    //alert(corpoModal);
+    $('body').append(corpoModal);
 
 });
 
@@ -56,7 +60,7 @@ function removeItem(chave){
 
   function RecarregarItens(){
 
-    $('#u15372').children().remove();
+    $('#pu27505').children().remove();
     $('#u15360').children().remove();
 
 
@@ -67,20 +71,23 @@ function removeItem(chave){
       dataType: 'text',
       success: function(data){
 
-          $('#u15372').append(data);
-          $('#u15372').css('padding','5%');
+          $('#pu27505').append(data);
+        //  $('#u15372').css('padding','5%');
+      },
+      complete: function(){
+          $.ajax({
+            type: 'get',
+            url: 'backEnd/produtos/controller.php/pegarCarrinho/Total',
+            dataType: 'text',
+            success: function(data){
+
+                $('#pu27505').append(data);
+            }
+          });
       }
     });
 
-    $.ajax({
-      type: 'get',
-      url: 'backEnd/produtos/controller.php/pegarCarrinho/Total',
-      dataType: 'text',
-      success: function(data){
 
-          $('#u15360').append(data);
-      }
-    });
 
     $.ajax({
       type: 'get',
@@ -224,5 +231,50 @@ function comprar_pedido(){
   }else{
     alert('Porfavor digite todos os campos!');
   }
+
+}
+
+
+
+
+
+
+
+
+
+// ============================ modal ==============================
+
+
+function modalCorpo(){
+  let modalBody = "<div class='modal' id='finalizarPedido'>";
+  modalBody += "<div class='modal-dialog' role='document'>";
+  modalBody += "<div class='modal-content'>";
+  modalBody += "<div class='modal-header'>";
+  modalBody += "<h5 class='modal-title'>Preencha os dados abaixo</h5>";
+  modalBody += "<button type='button' class='close' data-dismiss='modal' aria-label='Clos'>";
+  modalBody += "<span aria-hidden='true'>&times;</span>";
+  modalBody += "</button>";
+  modalBody += "</div>";
+  modalBody += "<div class='modal-body'>";
+  modalBody += "<h3>Falta Pouco</h3>";
+  modalBody += "<h4>Por favor digite os campos abaixo.</h4>";
+  modalBody += "<div class='form-group'>";
+  modalBody += "<label for='email_cliente'>Digite seu email:</label>";
+  modalBody += "<input type='email' class='form-control' id='email_cliente' aria-describedby='emailHelp' placeholder='Email'>";
+  modalBody += "</div>";
+  modalBody += "<div class='form-group'>";
+  modalBody += "<label for='nome_cliente'>Nome</label>";
+  modalBody += "<input type='text' class='form-control' id='nome_cliente' placeholder='Nome'>";
+  modalBody += "</div>";
+  modalBody += "</div>";
+  modalBody += "<div class='modal-footer'>";
+  modalBody += "<button type='button' id='comprar_pedido' onclick='comprar_pedido()'  class='btn btn-primary'>Finalizar Pedido</button>";
+  modalBody += "<button type='button' class='btn btn-secondary' data-dismiss='modal'>Fechar</button>";
+  modalBody += "</div>";
+  modalBody += "</div>";
+  modalBody += "</div>";
+  modalBody += "</div>";
+
+  return modalBody;
 
 }
