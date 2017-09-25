@@ -1,7 +1,7 @@
 <?php
-  require_once 'produtos.class.php';
 
-  class Lencos extends Produtos
+
+  class Chaveiro extends Produtos
   {
 
     private $tipo;
@@ -45,7 +45,7 @@
     }
 
     public function setQuantidade($quantidade){
-      parent::setQuantidade($quantidade);
+      return parent::setQuantidade($quantidade);
     }
 
     public function getPreco(){
@@ -57,6 +57,3 @@
     }
 
   }
-
-
- ?>

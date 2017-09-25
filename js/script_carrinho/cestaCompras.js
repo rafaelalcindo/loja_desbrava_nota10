@@ -199,28 +199,6 @@ function comprar_pedido(){
                             }
                           }
                         });
-                  }else if(data.collection_status=='rejected'){
-                    $.ajax({
-                        type: 'get',
-                        url: 'backEnd/produtos/controller.php/pegarCarrinho/EnviarEmail',
-                        dataType: 'text',
-                        success: function(data){
-                          if(data == 'true'){
-                            window.location.href = 'obrigado.html';
-                          }
-                        }
-                      });
-                  }else if(data.collection_status==null){
-                    $.ajax({
-                        type: 'get',
-                        url: 'backEnd/produtos/controller.php/pegarCarrinho/EnviarEmail',
-                        dataType: 'text',
-                        success: function(data){
-                          if(data == 'true'){
-                            window.location.href = 'obrigado.html';
-                          }
-                        }
-                      });
                   }
                 }
             });

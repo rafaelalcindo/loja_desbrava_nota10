@@ -8,9 +8,37 @@
   {
     private $arganelPersonalizado;
     private $arganel;
+    private $lencos;
+    private $chaveiro;
 
     function __construct()
     {
+
+    }
+
+    public function addLencos($lencos){
+      $lencos_array = array();
+      $this->lencos['titulo']         = $lencos->getTitulo();
+      $this->lencos['quantidade']     = $lencos->getQuantidade();
+      $this->lencos['preco']          = $lencos->getPreco();
+      $this->lencos['tipo']           = $lencos->getTipo();
+      $this->lencos['nome_categoria'] = $lencos->getCategoria();
+
+      $lencos_array['lencos'] = $this->lencos;
+      AddCookie($lencos_array);
+
+    }
+
+    public function addChaveiro($chaveiro){
+      $chaveiros_array = array();
+      $this->chaveiro['titulo']         = $chaveiro->getTitulo();
+      $this->chaveiro['quantidade']     = $chaveiro->getQuantidade();
+      $this->chaveiro['preco']          = $chaveiro->getPreco();
+      $this->chaveiro['tipo']           = $chaveiro->getTitulo();
+      $this->chaveiro['nome_categoria'] = $chaveiro->getCategoria();
+
+      $chaveiros_array['chaveiro'] = $this->chaveiro;
+      AddCookie($chaveiro);
 
     }
 
@@ -220,6 +248,8 @@
     }
 
   }
+
+
 
   function addCookieClient($arrayCliente){
         $meus_array = array();

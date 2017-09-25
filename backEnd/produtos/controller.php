@@ -6,6 +6,8 @@ use \Psr\Http\Message\ResponseInterface as Response;
 require '../vendor/autoload.php';
 require_once 'arganelPerso.class.php';
 require_once 'arganel.class.php';
+require_once 'lencos.class.php';
+require_once 'chaveiro.class.php';
 require 'carrinho.class.php';
 
 
@@ -17,6 +19,8 @@ $configuration = [
 $c = new \Slim\Container($configuration);
 $app = new \Slim\App($c);
 //$app = new \Slim\App;
+
+// ============================ Adicionar Produtos ====================================
 
 $app->post('/adicionar/arganelPesonalizado', function (Request $request, Response $response) {
 
@@ -68,6 +72,52 @@ $app->post('/adicionar/arganel', function (Request $request, Response $response)
 
   $carrinho = new CarrinhoCompras();
   $carrinho->addArganel($arganel);
+
+  echo 'true';
+
+});
+
+$app->post('/adicionar/lenco', function(Request $request, Response $response){
+    $request_array = $request->getParsedBody();
+
+    $titulo        = $request_array['titulo'];
+    $quantidade    = $request_array['quantidade'];
+    $preco         = $request_array['preco'];
+    $tipo          = $request_array['tipo'];
+    $categoria     = $request_array['categoria'];
+
+    $lenco = new Lencos();
+    $lenco->setTitulo($titulo);
+    $lenco->setQuantidade($quantidade);
+    $lenco->setPreco($preco);
+
+    $lenco->setTipo($tipo);
+    $lenco->setCategoria($categoria);
+
+    $carrinho = new CarrinhoCompras();
+    $carrinho->addLencos($lenco);
+
+    echo 'true';
+});
+
+$app->post('/adicionar/chaveiro', function(Request $request, Response $response){
+  $request_array = $request->getParsedBody();
+
+  $titulo     = $request_array['titulo'];
+  $quantidade = $request_array['quantidade'];
+  $preco      = $request_array['preco'];
+  $tipo       = $request_array['tipo'];
+  $categoria   = $request_array['categoria'];
+
+  $chaveiro = new Chaveiro();
+  $chaveiro->setTitulo($titulo);
+  $chaveiro->setQuantidade($quantidade);
+  $chaveiro->setPreco($preco);
+  $chaveiro->setTipo($tipo);
+  $chaveiro->setCategoria($categoria);
+
+  $carrinho = new CarrinhoCompras();
+  $carrinho->addChaveiro($chaveiro);
 
   echo 'true';
 
@@ -127,8 +177,8 @@ $app->get('/pegarCarrinho/EnviarEmail', function(Request $request, Response $res
     $pegarCarrinho = new CarrinhoCompras();
     $resultado = $pegarCarrinho->EnviarEmailDetalhes();
     if($resultado){
-      unset($_COOKIE['meus_cliente']);
-      unset($_COOKIE['meus_produtos']);
+      setcookie("meus_cliente","",time() -3600, "/");
+      setcookie("meus_produtos","",time() -3600, "/");
       echo "true";
     }else{ echo "false"; }
 
