@@ -129,9 +129,7 @@ function finalizarCompra(){
               // execute_my_onreturn (Sólo modal)
             }
         });
-
       }
-
     }); */
 }
 

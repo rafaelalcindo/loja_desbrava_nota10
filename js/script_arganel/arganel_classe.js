@@ -109,16 +109,6 @@ $(document).ready(function(){
       addChartArganel(arganelLiderMasterAvan);
   });
 
-  $('#u16807-4').css('cursor','pointer');
-  $('#u16855-4').css('cursor','pointer');
-  $('#u16875-4').css('cursor', 'pointer');
-  $('#u16935-4').css('cursor','pointer');
-  $('#u16898-4').css('cursor','pointer');
-  $('#u16895-4').css('cursor', 'pointer');
-  $('#u16958-4').css('cursor', 'pointer');
-  $('#u16955-4').css('cursor', 'pointer');
-
-
 });
 
 
