@@ -87,7 +87,7 @@ $(document).ready(function(){
    let quant_arganel = $('#quant_arganel').val();
 
    if($.isNumeric(quant_arganel)){
-     if(quant_arganel > 2 ){
+     if(quant_arganel >= 2 ){
        if(quant_arganel.trim() != ''){
            let data_test = new FormData();
            data_test.append('titulo', 'Arganel Personalizado '+cores_juntas);
@@ -111,7 +111,7 @@ $(document).ready(function(){
                 }
               });
          }// fim do if primeiro
-     }else{ alert('Por favor, coloque uma quantidade maior que 2!'); }
+     }else{ alert('Por favor, coloque no mínimo 2 arganeis!'); }
    }else{ alert('Por favor digite apenas números'); }
 
 

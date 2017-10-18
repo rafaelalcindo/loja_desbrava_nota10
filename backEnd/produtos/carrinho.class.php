@@ -323,9 +323,9 @@
 
     $m->From = 'contato@goconstruct.com.br';
   	$m->FromName = 'Contato';
-  	$m->addReplyTo('rafael@goconstruct.com.br','Reply address');
-  	$m->addAddress('rafael@goconstruct.com.br','Rafael');
-  	$m->addAddress('rafael@goconstruct.com.br','Rafael');
+  	//$m->addReplyTo('rafael@goconstruct.com.br','Reply address');
+  	//$m->addAddress('rafael@goconstruct.com.br','Rafael');
+  	//$m->addAddress('rafael@goconstruct.com.br','Rafael');
   	//$m->addAddress('igor@goconstruct.com.br','Igor');
   	$m->addAddress('financeiro@desbravadornota10.com.br','Bruno');
 

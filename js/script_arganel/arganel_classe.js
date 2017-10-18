@@ -15,6 +15,8 @@ $(document).ready(function(){
 
   });
 
+  $('#u16807-4').css('cursor','pointer');
+
   // arganel de companheiro
   $('#u16855-4').click(function(){
     var arganelCompanheiro = new Object();
@@ -27,6 +29,8 @@ $(document).ready(function(){
       console.log(arganelCompanheiro);
       addChartArganel(arganelCompanheiro);
   });
+
+  $('#u16855-4').css('cursor','pointer');
 
   // arganel de pesquisador
   $('#u16875-4').click(function(){
@@ -41,6 +45,8 @@ $(document).ready(function(){
       addChartArganel(arganelPesquisador);
   });
 
+  $('#u16875-4').css('cursor','pointer');
+
   // arganel de Pioneiro
   $('#u16935-4').click(function(){
     var arganelPioneiro = new Object();
@@ -54,6 +60,8 @@ $(document).ready(function(){
       addChartArganel(arganelPioneiro);
 
   });
+
+  $('#u16935-4').css('cursor','pointer');
 
   // arganel de excursionista
   $('#u16898-4').click(function(){
@@ -70,6 +78,8 @@ $(document).ready(function(){
 
   });
 
+  $('#u16898-4').css('cursor','pointer');
+
   // arganel de guia
   $('#u16895-4').click(function(){
     var arganelGuia = new Object();
@@ -82,6 +92,8 @@ $(document).ready(function(){
       console.log(arganelGuia);
       addChartArganel(arganelGuia);
   });
+
+  $('#u16895-4').css('cursor','pointer');
 
   // arganel de Lider Master
   $('#u16958-4').click(function(){
@@ -96,6 +108,8 @@ $(document).ready(function(){
       addChartArganel(arganelLiderMaster);
   });
 
+  $('#u16958-4').css('cursor','pointer');
+
   // arganel de Lider Master Avançado
   $('#u16955-4').click(function(){
     var arganelLiderMasterAvan = new Object();
@@ -108,6 +122,8 @@ $(document).ready(function(){
       console.log(arganelLiderMasterAvan);
       addChartArganel(arganelLiderMasterAvan);
   });
+
+  $('#u16955-4').css('cursor','pointer');
 
 });
 

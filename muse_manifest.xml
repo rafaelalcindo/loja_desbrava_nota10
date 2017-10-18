@@ -1,39 +1,49 @@
-<manifest alg="2" build="2017.0.2.363" opt="true" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" ftp_hostname="ftp://ftp.aqcez.com.br" ftp_rootfolder="/public_html/desbravadornota10.com.br/teste" exportTarget="FTP" domain="www.desbravadornota10.com.br/teste" resolutions="1x" timestamp="1505743658976">
+<manifest alg="2" build="2017.0.2.363" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" ftp_hostname="ftp://ftp.aqcez.com.br" ftp_rootfolder="/public_html/desbravadornota10.com.br" exportTarget="FTP" domain="www.desbravadornota10.com.br" resolutions="1x" timestamp="1507908264237">
   <folder name="css">
     <file name="site_global.css" crc="443350757"/>
-    <file name="master_a-mestre.css" crc="4223262447" ref="carrinho:index:clientes:personalizados:arganeis-classes"/>
-    <file name="nomq_preview_master_a-mestre.css" crc="3788231499" ref="carrinho:index:clientes:personalizados:arganeis-classes"/>
-    <file name="carrinho.css" crc="4254986512" ref="carrinho"/>
-    <file name="nomq_carrinho.css" crc="3850813786" ref="carrinho"/>
+    <file name="master_a-mestre.css" crc="4242124042" ref="carrinho:personalizados:index:arganeis-classes:blog:clientes:tiras-de-nome"/>
+    <file name="nomq_preview_master_a-mestre.css" crc="3951231730" ref="carrinho:personalizados:index:arganeis-classes:blog:clientes:tiras-de-nome"/>
+    <file name="carrinho.css" crc="4225390956" ref="carrinho"/>
+    <file name="nomq_carrinho.css" crc="4240214150" ref="carrinho"/>
     <file name="iefonts_carrinho.css" crc="3824530138" ref="carrinho"/>
-    <file name="index.css" crc="368986713" ref="index"/>
-    <file name="nomq_index.css" crc="4113321644" ref="index"/>
-    <file name="iefonts_index.css" crc="3824530138" ref="index"/>
-    <file name="clientes.css" crc="3974655148" ref="clientes"/>
-    <file name="nomq_clientes.css" crc="355198281" ref="clientes"/>
-    <file name="iefonts_clientes.css" crc="3824530138" ref="clientes"/>
-    <file name="personalizados.css" crc="417361476" ref="personalizados"/>
-    <file name="nomq_personalizados.css" crc="4051257513" ref="personalizados"/>
+    <file name="personalizados.css" crc="420924133" ref="personalizados"/>
+    <file name="nomq_personalizados.css" crc="3815187054" ref="personalizados"/>
     <file name="iefonts_personalizados.css" crc="3824530138" ref="personalizados"/>
-    <file name="arganeis-classes.css" crc="3888348088" ref="arganeis-classes"/>
-    <file name="nomq_arganeis-classes.css" crc="3847448177" ref="arganeis-classes"/>
+    <file name="index.css" crc="191398113" ref="index"/>
+    <file name="nomq_index.css" crc="4095235688" ref="index"/>
+    <file name="iefonts_index.css" crc="3824530138" ref="index"/>
+    <file name="arganeis-classes.css" crc="313044324" ref="arganeis-classes"/>
+    <file name="nomq_arganeis-classes.css" crc="4202238694" ref="arganeis-classes"/>
     <file name="iefonts_arganeis-classes.css" crc="3824530138" ref="arganeis-classes"/>
+    <file name="blog.css" crc="492084370" ref="blog"/>
+    <file name="nomq_blog.css" crc="492053671" ref="blog"/>
+    <file name="iefonts_blog.css" crc="3824530138" ref="blog"/>
+    <file name="clientes.css" crc="4139399894" ref="clientes"/>
+    <file name="nomq_clientes.css" crc="222280173" ref="clientes"/>
+    <file name="iefonts_clientes.css" crc="3824530138" ref="clientes"/>
+    <file name="tiras-de-nome.css" crc="495219113" ref="tiras-de-nome"/>
+    <file name="nomq_tiras-de-nome.css" crc="465668840" ref="tiras-de-nome"/>
+    <file name="iefonts_tiras-de-nome.css" crc="3824530138" ref="tiras-de-nome"/>
   </folder>
   <folder name="scripts">
-    <file name="jquery-1.8.3.min.js" crc="209076791" ref="personalizados:clientes:carrinho:index:arganeis-classes"/>
-    <file name="museutils.js" crc="4232573551" ref="personalizados:clientes:carrinho:index:arganeis-classes"/>
-    <file name="whatinput.js" crc="86476730" ref="personalizados:clientes:carrinho:index:arganeis-classes"/>
-    <file name="museconfig.js" crc="4152223963" ref="personalizados:clientes:carrinho:index:arganeis-classes"/>
-    <file name="jquery.musepolyfill.bgsize.js" crc="3880853905" ref="personalizados:clientes:carrinho:arganeis-classes"/>
-    <file name="jquery.watch.js" crc="3844535323" ref="personalizados:clientes:carrinho:index:arganeis-classes"/>
-    <file name="webpro.js" crc="3770351119" ref="personalizados:clientes:carrinho:index:arganeis-classes"/>
-    <file name="musewpslideshow.js" crc="4244742588" ref="personalizados:clientes:carrinho:index:arganeis-classes"/>
-    <file name="jquery.museoverlay.js" crc="432750910" ref="personalizados:clientes:carrinho:index:arganeis-classes"/>
-    <file name="touchswipe.js" crc="3912873526" ref="personalizados:clientes:carrinho:index:arganeis-classes"/>
-    <file name="jquery.musemenu.js" crc="38860304" ref="personalizados:clientes:carrinho:index:arganeis-classes"/>
-    <file name="html5shiv.js" crc="4241844378" ref="personalizados:clientes:carrinho:index:arganeis-classes"/>
-    <file name="jquery.museresponsive.js" crc="433634197" ref="personalizados:clientes:carrinho:index:arganeis-classes"/>
-    <file name="require.js" crc="4234670167" ref="personalizados:clientes:carrinho:index:arganeis-classes"/>
+    <file name="jquery-1.8.3.min.js" crc="209076791" ref="personalizados:carrinho:index:arganeis-classes:clientes:tiras-de-nome:blog"/>
+    <file name="museutils.js" crc="4232573551" ref="personalizados:carrinho:index:arganeis-classes:clientes:tiras-de-nome:blog"/>
+    <file name="whatinput.js" crc="86476730" ref="personalizados:carrinho:index:arganeis-classes:clientes:tiras-de-nome:blog"/>
+    <file name="museconfig.js" crc="3849126041" ref="personalizados:carrinho:index:arganeis-classes:clientes:tiras-de-nome:blog"/>
+    <file name="jquery.musepolyfill.bgsize.js" crc="3880853905" ref="personalizados:carrinho:index:clientes:tiras-de-nome"/>
+    <file name="jquery.watch.js" crc="3844535323" ref="personalizados:carrinho:index:arganeis-classes:clientes:tiras-de-nome:blog"/>
+    <file name="webpro.js" crc="3770351119" ref="personalizados:carrinho:index:arganeis-classes:clientes:tiras-de-nome:blog"/>
+    <file name="musewpslideshow.js" crc="4244742588" ref="personalizados:carrinho:index:arganeis-classes:clientes:tiras-de-nome:blog"/>
+    <file name="jquery.museoverlay.js" crc="432750910" ref="personalizados:carrinho:index:arganeis-classes:clientes:tiras-de-nome:blog"/>
+    <file name="touchswipe.js" crc="3912873526" ref="personalizados:carrinho:index:arganeis-classes:clientes:tiras-de-nome:blog"/>
+    <file name="jquery.musemenu.js" crc="38860304" ref="personalizados:carrinho:index:arganeis-classes:clientes:tiras-de-nome:blog"/>
+    <file name="html5shiv.js" crc="4241844378" ref="personalizados:carrinho:index:arganeis-classes:clientes:tiras-de-nome:blog"/>
+    <file name="jquery.museresponsive.js" crc="433634197" ref="personalizados:carrinho:index:arganeis-classes:clientes:tiras-de-nome:blog"/>
+    <file name="require.js" crc="4234670167" ref="personalizados:carrinho:index:arganeis-classes:clientes:tiras-de-nome:blog"/>
+    <file name="form_check.php" crc="3841221102" ref="tiras-de-nome"/>
+    <file name="form_throttle.php" crc="4048049783" ref="tiras-de-nome"/>
+    <file name="form_process.php" crc="3899230280" ref="tiras-de-nome"/>
+    <file name="form-u31198.php" crc="4149665227" ref="tiras-de-nome"/>
   </folder>
   <folder name="images">
     <file name="logo.png" crc="291734428" ref="personalizados">
@@ -170,17 +180,17 @@
     <file name="espada-amarela_poster_u8813.png" crc="3893664781" ref="personalizados"/>
     <file name="shopping-cart.svg" crc="114638831" ref="personalizados"/>
     <file name="shopping-cart_poster_u10658.png" crc="292345442" ref="personalizados"/>
-    <file name="menu-alt-256.png" crc="191789486" seo="true" ref="personalizados:clientes:carrinho:index:arganeis-classes">
+    <file name="menu-alt-256.png" crc="191789486" seo="true" ref="personalizados:carrinho:index:arganeis-classes:clientes:tiras-de-nome:blog">
       <caption webpage="index" alt=""/>
       <caption webpage="index" alt=""/>
       <caption webpage="index" alt=""/>
       <caption webpage="index" alt=""/>
       <caption webpage="index" alt=""/>
-      <caption webpage="clientes" alt=""/>
-      <caption webpage="clientes" alt=""/>
-      <caption webpage="clientes" alt=""/>
-      <caption webpage="clientes" alt=""/>
-      <caption webpage="clientes" alt=""/>
+      <caption webpage="blog" alt=""/>
+      <caption webpage="blog" alt=""/>
+      <caption webpage="blog" alt=""/>
+      <caption webpage="blog" alt=""/>
+      <caption webpage="blog" alt=""/>
       <caption webpage="arganeis-classes" alt=""/>
       <caption webpage="arganeis-classes" alt=""/>
       <caption webpage="arganeis-classes" alt=""/>
@@ -196,17 +206,47 @@
       <caption webpage="carrinho" alt=""/>
       <caption webpage="carrinho" alt=""/>
       <caption webpage="carrinho" alt=""/>
+      <caption webpage="tiras-de-nome" alt=""/>
+      <caption webpage="tiras-de-nome" alt=""/>
+      <caption webpage="tiras-de-nome" alt=""/>
+      <caption webpage="tiras-de-nome" alt=""/>
+      <caption webpage="tiras-de-nome" alt=""/>
+      <caption webpage="desbravador-nota-10--blog" alt=""/>
+      <caption webpage="desbravador-nota-10--blog" alt=""/>
+      <caption webpage="desbravador-nota-10--blog" alt=""/>
+      <caption webpage="desbravador-nota-10--blog" alt=""/>
+      <caption webpage="desbravador-nota-10--blog" alt=""/>
+      <caption webpage="desbravador-nota-10--clientes" alt=""/>
+      <caption webpage="desbravador-nota-10--clientes" alt=""/>
+      <caption webpage="desbravador-nota-10--clientes" alt=""/>
+      <caption webpage="desbravador-nota-10--clientes" alt=""/>
+      <caption webpage="desbravador-nota-10--clientes" alt=""/>
+      <caption webpage="desbravador-nota-10--tiras-de-nome" alt=""/>
+      <caption webpage="desbravador-nota-10--tiras-de-nome" alt=""/>
+      <caption webpage="desbravador-nota-10--tiras-de-nome" alt=""/>
+      <caption webpage="desbravador-nota-10--tiras-de-nome" alt=""/>
+      <caption webpage="desbravador-nota-10--tiras-de-nome" alt=""/>
+      <caption webpage="clientes" alt=""/>
+      <caption webpage="clientes" alt=""/>
+      <caption webpage="clientes" alt=""/>
+      <caption webpage="clientes" alt=""/>
+      <caption webpage="clientes" alt=""/>
     </file>
     <file name="_mg_4904-u28903-fr.jpg" crc="234035534" ref="personalizados"/>
     <file name="_mg_4904-u28903-fr2.jpg" crc="4197203903" ref="personalizados"/>
     <file name="_mg_4904-u28903-fr3.jpg" crc="25642210" ref="personalizados"/>
-    <file name="blank.gif" crc="4208392903" ref="personalizados:clientes:carrinho:index:arganeis-classes"/>
+    <file name="blank.gif" crc="4208392903" ref="personalizados:carrinho:index:arganeis-classes:clientes:tiras-de-nome:blog"/>
     <file name="16174517_1222233517867774_7955422324719512254_n.jpg" crc="4014282832" ref="clientes">
       <caption webpage="clientes" alt=""/>
       <caption webpage="clientes" alt=""/>
       <caption webpage="clientes" alt=""/>
       <caption webpage="clientes" alt=""/>
       <caption webpage="clientes" alt=""/>
+      <caption webpage="desbravador-nota-10--clientes" alt=""/>
+      <caption webpage="desbravador-nota-10--clientes" alt=""/>
+      <caption webpage="desbravador-nota-10--clientes" alt=""/>
+      <caption webpage="desbravador-nota-10--clientes" alt=""/>
+      <caption webpage="desbravador-nota-10--clientes" alt=""/>
     </file>
     <file name="captura de tela 2017-09-06 às 203009.jpg" crc="4197782340" ref="clientes">
       <caption webpage="clientes" alt=""/>
@@ -214,6 +254,11 @@
       <caption webpage="clientes" alt=""/>
       <caption webpage="clientes" alt=""/>
       <caption webpage="clientes" alt=""/>
+      <caption webpage="desbravador-nota-10--clientes" alt=""/>
+      <caption webpage="desbravador-nota-10--clientes" alt=""/>
+      <caption webpage="desbravador-nota-10--clientes" alt=""/>
+      <caption webpage="desbravador-nota-10--clientes" alt=""/>
+      <caption webpage="desbravador-nota-10--clientes" alt=""/>
     </file>
     <file name="19510220_780314758813949_4430120359145928061_n.jpg" crc="506173966" ref="clientes">
       <caption webpage="clientes" alt=""/>
@@ -221,6 +266,11 @@
       <caption webpage="clientes" alt=""/>
       <caption webpage="clientes" alt=""/>
       <caption webpage="clientes" alt=""/>
+      <caption webpage="desbravador-nota-10--clientes" alt=""/>
+      <caption webpage="desbravador-nota-10--clientes" alt=""/>
+      <caption webpage="desbravador-nota-10--clientes" alt=""/>
+      <caption webpage="desbravador-nota-10--clientes" alt=""/>
+      <caption webpage="desbravador-nota-10--clientes" alt=""/>
     </file>
     <file name="13533014_615384518621433_842122969072599763_n.jpg" crc="3903735467" ref="clientes">
       <caption webpage="clientes" alt=""/>
@@ -228,6 +278,11 @@
       <caption webpage="clientes" alt=""/>
       <caption webpage="clientes" alt=""/>
       <caption webpage="clientes" alt=""/>
+      <caption webpage="desbravador-nota-10--clientes" alt=""/>
+      <caption webpage="desbravador-nota-10--clientes" alt=""/>
+      <caption webpage="desbravador-nota-10--clientes" alt=""/>
+      <caption webpage="desbravador-nota-10--clientes" alt=""/>
+      <caption webpage="desbravador-nota-10--clientes" alt=""/>
     </file>
     <file name="1622161_1465090587039928_36552736_n.jpg" crc="3930357695" ref="clientes">
       <caption webpage="clientes" alt=""/>
@@ -235,6 +290,11 @@
       <caption webpage="clientes" alt=""/>
       <caption webpage="clientes" alt=""/>
       <caption webpage="clientes" alt=""/>
+      <caption webpage="desbravador-nota-10--clientes" alt=""/>
+      <caption webpage="desbravador-nota-10--clientes" alt=""/>
+      <caption webpage="desbravador-nota-10--clientes" alt=""/>
+      <caption webpage="desbravador-nota-10--clientes" alt=""/>
+      <caption webpage="desbravador-nota-10--clientes" alt=""/>
     </file>
     <file name="1484427_692582704186718_1707592495075028044_n.jpg" crc="17528437" ref="clientes">
       <caption webpage="clientes" alt=""/>
@@ -242,6 +302,11 @@
       <caption webpage="clientes" alt=""/>
       <caption webpage="clientes" alt=""/>
       <caption webpage="clientes" alt=""/>
+      <caption webpage="desbravador-nota-10--clientes" alt=""/>
+      <caption webpage="desbravador-nota-10--clientes" alt=""/>
+      <caption webpage="desbravador-nota-10--clientes" alt=""/>
+      <caption webpage="desbravador-nota-10--clientes" alt=""/>
+      <caption webpage="desbravador-nota-10--clientes" alt=""/>
     </file>
     <file name="10386315_296085137266573_3980663361897013425_n.jpg" crc="400041988" ref="clientes">
       <caption webpage="clientes" alt=""/>
@@ -249,11 +314,16 @@
       <caption webpage="clientes" alt=""/>
       <caption webpage="clientes" alt=""/>
       <caption webpage="clientes" alt=""/>
-      <caption webpage="clientes" alt=""/>
-      <caption webpage="clientes" alt=""/>
-      <caption webpage="clientes" alt=""/>
-      <caption webpage="clientes" alt=""/>
-      <caption webpage="clientes" alt=""/>
+      <caption webpage="desbravador-nota-10--clientes" alt=""/>
+      <caption webpage="desbravador-nota-10--clientes" alt=""/>
+      <caption webpage="desbravador-nota-10--clientes" alt=""/>
+      <caption webpage="desbravador-nota-10--clientes" alt=""/>
+      <caption webpage="desbravador-nota-10--clientes" alt=""/>
+      <caption webpage="desbravador-nota-10--clientes" alt=""/>
+      <caption webpage="desbravador-nota-10--clientes" alt=""/>
+      <caption webpage="desbravador-nota-10--clientes" alt=""/>
+      <caption webpage="desbravador-nota-10--clientes" alt=""/>
+      <caption webpage="desbravador-nota-10--clientes" alt=""/>
     </file>
     <file name="1003645_576917065686049_1644881672_n.jpg" crc="3855381046" ref="clientes">
       <caption webpage="clientes" alt=""/>
@@ -261,6 +331,11 @@
       <caption webpage="clientes" alt=""/>
       <caption webpage="clientes" alt=""/>
       <caption webpage="clientes" alt=""/>
+      <caption webpage="desbravador-nota-10--clientes" alt=""/>
+      <caption webpage="desbravador-nota-10--clientes" alt=""/>
+      <caption webpage="desbravador-nota-10--clientes" alt=""/>
+      <caption webpage="desbravador-nota-10--clientes" alt=""/>
+      <caption webpage="desbravador-nota-10--clientes" alt=""/>
     </file>
     <file name="941926_378320435614353_412265606_n.jpg" crc="3819969204" ref="clientes">
       <caption webpage="clientes" alt=""/>
@@ -268,6 +343,11 @@
       <caption webpage="clientes" alt=""/>
       <caption webpage="clientes" alt=""/>
       <caption webpage="clientes" alt=""/>
+      <caption webpage="desbravador-nota-10--clientes" alt=""/>
+      <caption webpage="desbravador-nota-10--clientes" alt=""/>
+      <caption webpage="desbravador-nota-10--clientes" alt=""/>
+      <caption webpage="desbravador-nota-10--clientes" alt=""/>
+      <caption webpage="desbravador-nota-10--clientes" alt=""/>
     </file>
     <file name="10534264_649826315137578_8880053310843971775_n.jpg" crc="3976003677" ref="clientes">
       <caption webpage="clientes" alt=""/>
@@ -275,6 +355,11 @@
       <caption webpage="clientes" alt=""/>
       <caption webpage="clientes" alt=""/>
       <caption webpage="clientes" alt=""/>
+      <caption webpage="desbravador-nota-10--clientes" alt=""/>
+      <caption webpage="desbravador-nota-10--clientes" alt=""/>
+      <caption webpage="desbravador-nota-10--clientes" alt=""/>
+      <caption webpage="desbravador-nota-10--clientes" alt=""/>
+      <caption webpage="desbravador-nota-10--clientes" alt=""/>
     </file>
     <file name="16002956_1320753847947615_8987941840304357_n.jpg" crc="3781540881" ref="clientes">
       <caption webpage="clientes" alt=""/>
@@ -282,6 +367,11 @@
       <caption webpage="clientes" alt=""/>
       <caption webpage="clientes" alt=""/>
       <caption webpage="clientes" alt=""/>
+      <caption webpage="desbravador-nota-10--clientes" alt=""/>
+      <caption webpage="desbravador-nota-10--clientes" alt=""/>
+      <caption webpage="desbravador-nota-10--clientes" alt=""/>
+      <caption webpage="desbravador-nota-10--clientes" alt=""/>
+      <caption webpage="desbravador-nota-10--clientes" alt=""/>
     </file>
     <file name="aclmelma.png" crc="4201736271" ref="carrinho">
       <caption webpage="carrinho" alt=""/>
@@ -290,113 +380,159 @@
       <caption webpage="carrinho" alt=""/>
       <caption webpage="carrinho" alt=""/>
     </file>
+    <file name="almofada-anuncio.jpg" crc="401896704" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="_mg_4904-u30157-fr.jpg" crc="89624487" ref="index"/>
+    <file name="_mg_4864-u30201-fr.jpg" crc="341735693" ref="index"/>
+    <file name="whatsapp image 2017-10-10 at 225726.jpg" crc="205410159" ref="tiras-de-nome">
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="desbravador-nota-10--tiras-de-nome" alt=""/>
+      <caption webpage="tiras-de-nome" alt=""/>
+    </file>
+    <file name="almofada-anuncio-u30134-fr.jpg" crc="3862237566" ref="index"/>
+    <file name="almofada-anuncio-u30134-fr2.jpg" crc="197962404" ref="index"/>
+    <file name="almofada-anuncio-u30134-fr3.jpg" crc="4196435563" ref="index"/>
+    <file name="almofada-anuncio-u30134-fr4.jpg" crc="3945718367" ref="index"/>
     <file name="_mg_4864.jpg" crc="3976739173" seo="true" ref="arganeis-classes">
-      <caption webpage="arganeis-classes" alt=""/>
-      <caption webpage="arganeis-classes" alt=""/>
-      <caption webpage="arganeis-classes" alt=""/>
-      <caption webpage="arganeis-classes" alt=""/>
-      <caption webpage="arganeis-classes" alt=""/>
+      <caption webpage="arganeis-classes" alt="Amigo"/>
+      <caption webpage="arganeis-classes" alt="Amigo"/>
+      <caption webpage="arganeis-classes" alt="Amigo"/>
+      <caption webpage="arganeis-classes" alt="Amigo"/>
+      <caption webpage="arganeis-classes" alt="Amigo"/>
     </file>
     <file name="_mg_4865.jpg" crc="94152172" seo="true" ref="arganeis-classes">
-      <caption webpage="arganeis-classes" alt=""/>
-      <caption webpage="arganeis-classes" alt=""/>
-      <caption webpage="arganeis-classes" alt=""/>
-      <caption webpage="arganeis-classes" alt=""/>
-      <caption webpage="arganeis-classes" alt=""/>
+      <caption webpage="arganeis-classes" alt="Companheiro"/>
+      <caption webpage="arganeis-classes" alt="Companheiro"/>
+      <caption webpage="arganeis-classes" alt="Companheiro"/>
+      <caption webpage="arganeis-classes" alt="Companheiro"/>
+      <caption webpage="arganeis-classes" alt="Companheiro"/>
     </file>
     <file name="_mg_4872.jpg" crc="3847272757" seo="true" ref="arganeis-classes">
-      <caption webpage="arganeis-classes" alt=""/>
-      <caption webpage="arganeis-classes" alt=""/>
-      <caption webpage="arganeis-classes" alt=""/>
-      <caption webpage="arganeis-classes" alt=""/>
-      <caption webpage="arganeis-classes" alt=""/>
+      <caption webpage="arganeis-classes" alt="Pesquisador"/>
+      <caption webpage="arganeis-classes" alt="Pesquisador"/>
+      <caption webpage="arganeis-classes" alt="Pesquisador"/>
+      <caption webpage="arganeis-classes" alt="Pesquisador"/>
+      <caption webpage="arganeis-classes" alt="Pesquisador"/>
     </file>
     <file name="_mg_4859.jpg" crc="4231925583" seo="true" ref="arganeis-classes">
-      <caption webpage="arganeis-classes" alt=""/>
-      <caption webpage="arganeis-classes" alt=""/>
-      <caption webpage="arganeis-classes" alt=""/>
-      <caption webpage="arganeis-classes" alt=""/>
-      <caption webpage="arganeis-classes" alt=""/>
+      <caption webpage="arganeis-classes" alt="Pioneiro"/>
+      <caption webpage="arganeis-classes" alt="Pioneiro"/>
+      <caption webpage="arganeis-classes" alt="Pioneiro"/>
+      <caption webpage="arganeis-classes" alt="Pioneiro"/>
+      <caption webpage="arganeis-classes" alt="Pioneiro"/>
     </file>
     <file name="_mg_4867.jpg" crc="348300414" seo="true" ref="arganeis-classes">
-      <caption webpage="arganeis-classes" alt=""/>
-      <caption webpage="arganeis-classes" alt=""/>
-      <caption webpage="arganeis-classes" alt=""/>
-      <caption webpage="arganeis-classes" alt=""/>
-      <caption webpage="arganeis-classes" alt=""/>
+      <caption webpage="arganeis-classes" alt="Excursionista"/>
+      <caption webpage="arganeis-classes" alt="Excursionista"/>
+      <caption webpage="arganeis-classes" alt="Excursionista"/>
+      <caption webpage="arganeis-classes" alt="Excursionista"/>
+      <caption webpage="arganeis-classes" alt="Excursionista"/>
     </file>
     <file name="_mg_4870.jpg" crc="4101290753" seo="true" ref="arganeis-classes">
-      <caption webpage="arganeis-classes" alt=""/>
-      <caption webpage="arganeis-classes" alt=""/>
-      <caption webpage="arganeis-classes" alt=""/>
-      <caption webpage="arganeis-classes" alt=""/>
-      <caption webpage="arganeis-classes" alt=""/>
+      <caption webpage="arganeis-classes" alt="Guia"/>
+      <caption webpage="arganeis-classes" alt="Guia"/>
+      <caption webpage="arganeis-classes" alt="Guia"/>
+      <caption webpage="arganeis-classes" alt="Guia"/>
+      <caption webpage="arganeis-classes" alt="Guia"/>
     </file>
     <file name="original-lm2.jpg" crc="4158773851" seo="true" ref="arganeis-classes">
-      <caption webpage="arganeis-classes" alt=""/>
-      <caption webpage="arganeis-classes" alt=""/>
-      <caption webpage="arganeis-classes" alt=""/>
-      <caption webpage="arganeis-classes" alt=""/>
-      <caption webpage="arganeis-classes" alt=""/>
+      <caption webpage="arganeis-classes" alt="Líder Master"/>
+      <caption webpage="arganeis-classes" alt="Líder Master"/>
+      <caption webpage="arganeis-classes" alt="Líder Master"/>
+      <caption webpage="arganeis-classes" alt="Líder Master"/>
+      <caption webpage="arganeis-classes" alt="Líder Master"/>
     </file>
     <file name="original-lma2.jpg" crc="69845046" seo="true" ref="arganeis-classes">
-      <caption webpage="arganeis-classes" alt=""/>
-      <caption webpage="arganeis-classes" alt=""/>
-      <caption webpage="arganeis-classes" alt=""/>
-      <caption webpage="arganeis-classes" alt=""/>
-      <caption webpage="arganeis-classes" alt=""/>
+      <caption webpage="arganeis-classes" alt="Líder Master Avançado"/>
+      <caption webpage="arganeis-classes" alt="Líder Master Avançado"/>
+      <caption webpage="arganeis-classes" alt="Líder Master Avançado"/>
+      <caption webpage="arganeis-classes" alt="Líder Master Avançado"/>
+      <caption webpage="arganeis-classes" alt="Líder Master Avançado"/>
     </file>
     <file name="loading.gif" crc="3815509949" ref="arganeis-classes"/>
-    <file name="amigo.png" crc="4070814579" ref="arganeis-classes">
+    <file name="amigo.png" crc="4070814579" ref="arganeis-classes" seo="true">
       <caption webpage="arganeis-classes" alt=""/>
       <caption webpage="arganeis-classes" alt=""/>
       <caption webpage="arganeis-classes" alt=""/>
       <caption webpage="arganeis-classes" alt=""/>
       <caption webpage="arganeis-classes" alt=""/>
     </file>
-    <file name="companheiro.png" crc="24738989" ref="arganeis-classes">
+    <file name="companheiro.png" crc="191367743" ref="arganeis-classes" seo="true">
       <caption webpage="arganeis-classes" alt=""/>
       <caption webpage="arganeis-classes" alt=""/>
       <caption webpage="arganeis-classes" alt=""/>
       <caption webpage="arganeis-classes" alt=""/>
       <caption webpage="arganeis-classes" alt=""/>
     </file>
-    <file name="pesquisador.png" crc="500649548" ref="arganeis-classes">
+    <file name="pesquisador.png" crc="4273691119" ref="arganeis-classes" seo="true">
       <caption webpage="arganeis-classes" alt=""/>
       <caption webpage="arganeis-classes" alt=""/>
       <caption webpage="arganeis-classes" alt=""/>
       <caption webpage="arganeis-classes" alt=""/>
       <caption webpage="arganeis-classes" alt=""/>
     </file>
-    <file name="pioneiro.png" crc="278664855" ref="arganeis-classes">
+    <file name="pioneiro.png" crc="278664855" ref="arganeis-classes" seo="true">
       <caption webpage="arganeis-classes" alt=""/>
       <caption webpage="arganeis-classes" alt=""/>
       <caption webpage="arganeis-classes" alt=""/>
       <caption webpage="arganeis-classes" alt=""/>
       <caption webpage="arganeis-classes" alt=""/>
     </file>
-    <file name="excursionista.png" crc="120259901" ref="arganeis-classes">
+    <file name="excursionista.png" crc="120259901" ref="arganeis-classes" seo="true">
       <caption webpage="arganeis-classes" alt=""/>
       <caption webpage="arganeis-classes" alt=""/>
       <caption webpage="arganeis-classes" alt=""/>
       <caption webpage="arganeis-classes" alt=""/>
       <caption webpage="arganeis-classes" alt=""/>
     </file>
-    <file name="guia.png" crc="3933145624" ref="arganeis-classes">
+    <file name="guia.png" crc="323474873" ref="arganeis-classes" seo="true">
       <caption webpage="arganeis-classes" alt=""/>
       <caption webpage="arganeis-classes" alt=""/>
       <caption webpage="arganeis-classes" alt=""/>
       <caption webpage="arganeis-classes" alt=""/>
       <caption webpage="arganeis-classes" alt=""/>
     </file>
-    <file name="lm.png" crc="3970766523" ref="arganeis-classes">
+    <file name="whatsapp image 2017-10-10 at 225726-u30227-fr.jpg" crc="3997678850" ref="index"/>
+    <file name="checkboxunchecked.jpg" crc="495023700" ref="tiras-de-nome">
+      <caption webpage="desbravador-nota-10--tiras-de-nome" alt=""/>
+      <caption webpage="tiras-de-nome" alt=""/>
+    </file>
+    <file name="checkboxuncheckedrollover.jpg" crc="4076496830" ref="tiras-de-nome">
+      <caption webpage="desbravador-nota-10--tiras-de-nome" alt=""/>
+      <caption webpage="tiras-de-nome" alt=""/>
+    </file>
+    <file name="checkboxuncheckedmousedown.jpg" crc="361678653" ref="tiras-de-nome">
+      <caption webpage="desbravador-nota-10--tiras-de-nome" alt=""/>
+      <caption webpage="tiras-de-nome" alt=""/>
+    </file>
+    <file name="checkboxchecked.jpg" crc="477278992" ref="tiras-de-nome">
+      <caption webpage="desbravador-nota-10--tiras-de-nome" alt=""/>
+      <caption webpage="tiras-de-nome" alt=""/>
+    </file>
+    <file name="checkboxcheckedrollover.jpg" crc="435737969" ref="tiras-de-nome">
+      <caption webpage="desbravador-nota-10--tiras-de-nome" alt=""/>
+      <caption webpage="tiras-de-nome" alt=""/>
+    </file>
+    <file name="checkboxcheckedmousedown.jpg" crc="4004261994" ref="tiras-de-nome">
+      <caption webpage="desbravador-nota-10--tiras-de-nome" alt=""/>
+      <caption webpage="tiras-de-nome" alt=""/>
+    </file>
+    <file name="whatsapp image 2017-10-10 at 225726-u30986-fr.jpg" crc="3945446931" ref="tiras-de-nome"/>
+    <file name="whatsapp image 2017-10-10 at 225726-u30986-fr2.jpg" crc="324147159" ref="tiras-de-nome"/>
+    <file name="whatsapp image 2017-10-10 at 225726-u30986-fr3.jpg" crc="3938855873" ref="tiras-de-nome"/>
+    <file name="lider-master.png" crc="3970766523" seo="true" ref="arganeis-classes">
       <caption webpage="arganeis-classes" alt=""/>
       <caption webpage="arganeis-classes" alt=""/>
       <caption webpage="arganeis-classes" alt=""/>
       <caption webpage="arganeis-classes" alt=""/>
       <caption webpage="arganeis-classes" alt=""/>
     </file>
-    <file name="lma.png" crc="4223615050" ref="arganeis-classes">
+    <file name="lider-master-avancado.png" crc="4223615050" seo="true" ref="arganeis-classes">
       <caption webpage="arganeis-classes" alt=""/>
       <caption webpage="arganeis-classes" alt=""/>
       <caption webpage="arganeis-classes" alt=""/>
@@ -404,11 +540,13 @@
       <caption webpage="arganeis-classes" alt=""/>
     </file>
   </folder>
-  <file name="personalizados.html" crc="237983490" seo="true" mt="1505743596480" redirect="true"/>
-  <file name="clientes.html" crc="369762305" seo="true" mt="1505743596480" redirect="true"/>
-  <file name="carrinho.html" crc="201009781" seo="true" mt="1505743596480" redirect="true"/>
-  <file name="index.html" crc="3875658424" seo="true" mt="1505743596480" redirect="true"/>
-  <file name="arganeis-classes.html" crc="70621326" seo="true" mt="1505743596480" redirect="true"/>
+  <file name="personalizados.html" crc="59187546" seo="true" mt="1507908176123" redirect="true"/>
+  <file name="carrinho.html" crc="424349544" seo="true" mt="1507908176123" redirect="true"/>
+  <file name="index.html" crc="3898969674" seo="true" mt="1507908176123" redirect="true"/>
+  <file name="arganeis-classes.html" crc="80431894" seo="true" mt="1507908176123" redirect="true"/>
+  <file name="clientes.html" crc="1421331" seo="true" mt="1507908176123" redirect="true"/>
+  <file name="tiras-de-nome.html" crc="4035672240" seo="true" mt="1507908176123" redirect="true"/>
+  <file name="blog.html" crc="4252167135" seo="true" mt="1507908176123" redirect="true"/>
   <site>
     <paragraphStyle className="normal_text" uid="U49"/>
     <nestedListStyle className="nls-None" uid="U52"/>
@@ -433,7 +571,11 @@
         <breakpoint uid="U63" maxwidth="960" minwidth="0" squishy="true"/>
       </masterPage>
       <page name="Clientes" filename="clientes.html" muse_href="page:U9176" master="U72">
-        <breakpoint uid="U9142" maxwidth="1280" minwidth="0" squishy="true"/>
+        <breakpoint uid="U31972" maxwidth="320" minwidth="0" squishy="true"/>
+        <breakpoint uid="U31808" maxwidth="480" minwidth="321" squishy="true"/>
+        <breakpoint uid="U31771" maxwidth="768" minwidth="481" squishy="true"/>
+        <breakpoint uid="U31732" maxwidth="1024" minwidth="769" squishy="true"/>
+        <breakpoint uid="U9142" maxwidth="1280" minwidth="1025" squishy="true"/>
       </page>
       <page name="Carrinho" filename="carrinho.html" muse_href="page:U9668" master="U72">
         <breakpoint uid="U27197" maxwidth="480" minwidth="0" squishy="true"/>
@@ -441,15 +583,33 @@
         <breakpoint uid="U27101" maxwidth="1024" minwidth="769" squishy="true"/>
         <breakpoint uid="U9634" maxwidth="1280" minwidth="1025" squishy="true"/>
       </page>
-      <page name="Início" filename="index.html" muse_href="page:U16140" master="U72">
-        <breakpoint uid="U16100" maxwidth="1280" minwidth="0" squishy="true"/>
+      <page name="Home" filename="index.html" muse_href="page:U16140" master="U72">
+        <breakpoint uid="U30120" maxwidth="320" minwidth="0" squishy="true"/>
+        <breakpoint uid="U30106" maxwidth="480" minwidth="321" squishy="true"/>
+        <breakpoint uid="U30092" maxwidth="768" minwidth="481" squishy="true"/>
+        <breakpoint uid="U30078" maxwidth="1024" minwidth="769" squishy="true"/>
+        <breakpoint uid="U16100" maxwidth="1280" minwidth="1025" squishy="true"/>
       </page>
-      <page name="Arganéis Classes" filename="arganeis-classes.html" muse_href="page:U16631" master="U72">
+      <page name="Arganéis de Classes" filename="arganeis-classes.html" muse_href="page:U16631" master="U72">
         <breakpoint uid="U18563" maxwidth="320" minwidth="0" squishy="true"/>
         <breakpoint uid="U18466" maxwidth="480" minwidth="321" squishy="true"/>
         <breakpoint uid="U18239" maxwidth="768" minwidth="481" squishy="true"/>
         <breakpoint uid="U18151" maxwidth="1024" minwidth="769" squishy="true"/>
         <breakpoint uid="U16591" maxwidth="1280" minwidth="1025" squishy="true"/>
+      </page>
+      <page name="Tiras de Nome" filename="tiras-de-nome.html" muse_href="page:U30285" master="U72">
+        <breakpoint uid="U31485" maxwidth="320" minwidth="0" squishy="true"/>
+        <breakpoint uid="U31067" maxwidth="480" minwidth="321" squishy="true"/>
+        <breakpoint uid="U31050" maxwidth="768" minwidth="481" squishy="true"/>
+        <breakpoint uid="U31016" maxwidth="1024" minwidth="769" squishy="true"/>
+        <breakpoint uid="U30245" maxwidth="1280" minwidth="1025" squishy="true"/>
+      </page>
+      <page name="Blog" filename="blog.html" muse_href="page:U30687" master="U72">
+        <breakpoint uid="U30910" maxwidth="320" minwidth="0" squishy="true"/>
+        <breakpoint uid="U30894" maxwidth="480" minwidth="321" squishy="true"/>
+        <breakpoint uid="U30878" maxwidth="768" minwidth="481" squishy="true"/>
+        <breakpoint uid="U30846" maxwidth="1024" minwidth="769" squishy="true"/>
+        <breakpoint uid="U30647" maxwidth="1280" minwidth="1025" squishy="true"/>
       </page>
     </rendition>
   </renditions>

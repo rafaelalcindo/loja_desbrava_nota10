@@ -1,72 +1,122 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://www.desbravadornota10.com.br/teste/index.html</loc>
-    <lastmod>2017-09-18</lastmod>
+    <loc>http://www.desbravadornota10.com.br/index.html</loc>
+    <lastmod>2017-10-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
     <image:image>
-      <image:loc>http://www.desbravadornota10.com.br/teste/images/menu-alt-256.png</image:loc>
+      <image:loc>http://www.desbravadornota10.com.br/images/menu-alt-256.png</image:loc>
     </image:image>
   </url>
   <url>
-    <loc>http://www.desbravadornota10.com.br/teste/clientes.html</loc>
-    <lastmod>2017-09-18</lastmod>
+    <loc>http://www.desbravadornota10.com.br/carrinho.html</loc>
+    <lastmod>2017-10-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
     <image:image>
-      <image:loc>http://www.desbravadornota10.com.br/teste/images/menu-alt-256.png</image:loc>
+      <image:loc>http://www.desbravadornota10.com.br/images/menu-alt-256.png</image:loc>
     </image:image>
   </url>
   <url>
-    <loc>http://www.desbravadornota10.com.br/teste/personalizados.html</loc>
-    <lastmod>2017-09-18</lastmod>
+    <loc>http://www.desbravadornota10.com.br/arganeis-classes.html</loc>
+    <lastmod>2017-10-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
     <image:image>
-      <image:loc>http://www.desbravadornota10.com.br/teste/images/menu-alt-256.png</image:loc>
+      <image:loc>http://www.desbravadornota10.com.br/images/menu-alt-256.png</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://www.desbravadornota10.com.br/images/_mg_4864.jpg</image:loc>
+      <image:caption>Amigo</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>http://www.desbravadornota10.com.br/images/_mg_4865.jpg</image:loc>
+      <image:caption>Companheiro</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>http://www.desbravadornota10.com.br/images/_mg_4872.jpg</image:loc>
+      <image:caption>Pesquisador</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>http://www.desbravadornota10.com.br/images/_mg_4859.jpg</image:loc>
+      <image:caption>Pioneiro</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>http://www.desbravadornota10.com.br/images/_mg_4867.jpg</image:loc>
+      <image:caption>Excursionista</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>http://www.desbravadornota10.com.br/images/_mg_4870.jpg</image:loc>
+      <image:caption>Guia</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>http://www.desbravadornota10.com.br/images/original-lm2.jpg</image:loc>
+      <image:caption>Líder Master</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>http://www.desbravadornota10.com.br/images/original-lma2.jpg</image:loc>
+      <image:caption>Líder Master Avançado</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>http://www.desbravadornota10.com.br/images/amigo.png</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://www.desbravadornota10.com.br/images/companheiro.png</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://www.desbravadornota10.com.br/images/pesquisador.png</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://www.desbravadornota10.com.br/images/pioneiro.png</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://www.desbravadornota10.com.br/images/excursionista.png</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://www.desbravadornota10.com.br/images/guia.png</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://www.desbravadornota10.com.br/images/lider-master.png</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://www.desbravadornota10.com.br/images/lider-master-avancado.png</image:loc>
     </image:image>
   </url>
   <url>
-    <loc>http://www.desbravadornota10.com.br/teste/carrinho.html</loc>
-    <lastmod>2017-09-18</lastmod>
+    <loc>http://www.desbravadornota10.com.br/personalizados.html</loc>
+    <lastmod>2017-10-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
     <image:image>
-      <image:loc>http://www.desbravadornota10.com.br/teste/images/menu-alt-256.png</image:loc>
+      <image:loc>http://www.desbravadornota10.com.br/images/menu-alt-256.png</image:loc>
     </image:image>
   </url>
   <url>
-    <loc>http://www.desbravadornota10.com.br/teste/arganeis-classes.html</loc>
-    <lastmod>2017-09-18</lastmod>
+    <loc>http://www.desbravadornota10.com.br/clientes.html</loc>
+    <lastmod>2017-10-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
     <image:image>
-      <image:loc>http://www.desbravadornota10.com.br/teste/images/menu-alt-256.png</image:loc>
+      <image:loc>http://www.desbravadornota10.com.br/images/menu-alt-256.png</image:loc>
     </image:image>
+  </url>
+  <url>
+    <loc>http://www.desbravadornota10.com.br/tiras-de-nome.html</loc>
+    <lastmod>2017-10-13</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
     <image:image>
-      <image:loc>http://www.desbravadornota10.com.br/teste/images/_mg_4864.jpg</image:loc>
+      <image:loc>http://www.desbravadornota10.com.br/images/menu-alt-256.png</image:loc>
     </image:image>
+  </url>
+  <url>
+    <loc>http://www.desbravadornota10.com.br/blog.html</loc>
+    <lastmod>2017-10-13</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
     <image:image>
-      <image:loc>http://www.desbravadornota10.com.br/teste/images/_mg_4865.jpg</image:loc>
-    </image:image>
-    <image:image>
-      <image:loc>http://www.desbravadornota10.com.br/teste/images/_mg_4872.jpg</image:loc>
-    </image:image>
-    <image:image>
-      <image:loc>http://www.desbravadornota10.com.br/teste/images/_mg_4859.jpg</image:loc>
-    </image:image>
-    <image:image>
-      <image:loc>http://www.desbravadornota10.com.br/teste/images/_mg_4867.jpg</image:loc>
-    </image:image>
-    <image:image>
-      <image:loc>http://www.desbravadornota10.com.br/teste/images/_mg_4870.jpg</image:loc>
-    </image:image>
-    <image:image>
-      <image:loc>http://www.desbravadornota10.com.br/teste/images/original-lm2.jpg</image:loc>
-    </image:image>
-    <image:image>
-      <image:loc>http://www.desbravadornota10.com.br/teste/images/original-lma2.jpg</image:loc>
+      <image:loc>http://www.desbravadornota10.com.br/images/menu-alt-256.png</image:loc>
     </image:image>
   </url>
 </urlset>

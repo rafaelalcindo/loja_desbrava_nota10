@@ -144,6 +144,10 @@ function comprar_pedido(){
   data_fina.append('nome_cliente', nome_cliente);
 
   if(email_cliente.trim() != '' && nome_cliente.trim() != ''){
+
+
+
+
       $.ajax({
         type: 'post',
         processData: false,
@@ -165,38 +169,38 @@ function comprar_pedido(){
               mode: 'modal',
               onreturn: function(data) {
                 if (data.collection_status=='approved'){
-                  $.ajax({
+                  /* $.ajax({
                         type: 'get',
                         url: 'backEnd/produtos/controller.php/pegarCarrinho/EnviarEmail',
                         dataType: 'text',
                         success: function(data){
-                          if(data == 'true'){
+                          if(data == 'true'){ */
                             window.location.href = 'obrigado.html';
-                          }
+                        /*  }
                         }
-                      });
+                      }); */
                   }else if(data.collection_status=='in_process'){
-                    $.ajax({
+                   /* $.ajax({
                           type: 'get',
                           url: 'backEnd/produtos/controller.php/pegarCarrinho/EnviarEmail',
                           dataType: 'text',
                           success: function(data){
-                            if(data == 'true'){
+                            if(data == 'true'){ */
                               window.location.href = 'obrigado.html';
-                            }
+                        /*    }
                           }
-                        });
+                        }); */
                   }else if(data.collection_status=='pending'){
-                    $.ajax({
+                   /* $.ajax({
                           type: 'get',
                           url: 'backEnd/produtos/controller.php/pegarCarrinho/EnviarEmail',
                           dataType: 'text',
                           success: function(data){
-                            if(data == 'true'){
+                            if(data == 'true'){ */
                               window.location.href = 'obrigado.html';
-                            }
+                          /*  }
                           }
-                        });
+                        }); */
                   }
                 }
             });
@@ -204,6 +208,20 @@ function comprar_pedido(){
           }
 
         });
+
+
+      $.ajax({
+          type: 'get',
+          url: 'backEnd/produtos/controller.php/pegarCarrinho/EnviarEmail',
+          dataType: 'text',
+          success: function(data){
+            if(data == 'true'){
+              //window.location.href = 'obrigado.html';
+            }
+          }
+        });
+
+
   }else{
     alert('Porfavor digite todos os campos!');
   }
