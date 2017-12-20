@@ -1,6 +1,9 @@
+
+
 $(document).ready(function(){
+
   // ============== seleciona cores Fundo==================================
-  $('#u2386').click(function(){ $('#cor_fundo').val('azul'); });
+  $('#u2386').click(function(){ $('#cor_fundo').val('azul');  });
   $('#u2391').click(function(){ $('#cor_fundo').val('branco'); });
   $('#u2389').click(function(){ $('#cor_fundo').val('cinza'); });
   $('#u2384').click(function(){ $('#cor_fundo').val('preto'); });
@@ -71,6 +74,7 @@ $(document).ready(function(){
  // ================= Finalizar Pedido ================
 
  $('#u15523-4').click(function(){
+
    let cor_fundo  = " F: "+ $('#cor_fundo').val();
    let cor_borda  = " B: "+ $('#cor_borda').val();
    let cor_logo   = " L: "+ $('#cor_logo').val();
